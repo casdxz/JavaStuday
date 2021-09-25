@@ -4,40 +4,44 @@
 
 ### 1.java-basic
 
-Java基础部分 （常量变量、运算符、程序结构、数组、枚举、编程规范） 学习模块
+Java基础特性学习
 
-### 2.java-jfx
+### 2.java-oop
 
-JavaFX布局、样式、事件、MVC、各种拓展等
+Java面向对象学习
 
-### 3.java-oop
+### 3.java-advanced
 
-Java面向对象核心学习模块
+Java高级特性学习
 
-### 4.java-lang
+### 4.java-jvm
 
-Java.lang包常用类学习模块（String 、装拆箱、Class类、反射、线程等）
+Java虚拟机学习
 
-### 5.java-util
+### 5.java-jfx
 
-Java常用工具学习模块（JDK的util包、常用的第三方工具包hutool、guava、commons、lang3等）
+JavaFX学习
 
-### 6.java-collection
+### 6.java-container
 
-Java集合框架学习模块（Collection、List、Set、Map）
+Java容器学习
 
-### 7.java-io
+### 7java-util
+
+Java实用工具学习
+
+### 8.java-io
 
 Java IO学习模块（File、IO、NIO）
 
-### 8.java-jdk8
+### 9.java-jdk8
 
 jdk特性学习模块（Lambda、Function、新的日期时间API、concurrent等）
 
-### 9.java-net
+### 10.java-concurrent
 
-Java网络编程学习模块（Socket套接字编程、UDP、SMTP、HTTP等编程）
+Java并发编程学习
 
-### 10.java-database
+### 11.java-effective
 
-Java数据库编程（关系式、非关系式）
+Java高效编程学习
