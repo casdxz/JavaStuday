@@ -5,10 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7288f1ce-3d80-4a81-9b02-c70b5872ba85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/datatype/IntegerEquals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/datatype/StringEquals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/datatype/ValueOverfolw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/top/bearcad/java/basic/datatype/ValueOverfolwTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,7 +157,7 @@
       <option name="presentableId" value="Default" />
       <updated>1632643465826</updated>
       <workItem from="1632643470253" duration="9288000" />
-      <workItem from="1632656237455" duration="4639000" />
+      <workItem from="1632656237455" duration="5393000" />
     </task>
     <servers />
   </component>
