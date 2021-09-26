@@ -5,8 +5,8 @@ import top.bearcad.java.basic.array.ArrayDemo;
 /**
  * @program: java-basic
  * @description:
- * @author: bear
- * @create: 2021-09-26 01:44
+ * @author: bearcad
+ * @create: 2021-09-26 16:34
  **/
 public class App {
     public static void main(String[] args) {
@@ -16,5 +16,4 @@ public class App {
         int sum = ad.getSum(arr);
         System.out.println("sum = " + sum);
     }
-
 }

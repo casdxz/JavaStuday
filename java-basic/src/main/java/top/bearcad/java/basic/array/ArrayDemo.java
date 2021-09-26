@@ -1,10 +1,10 @@
 package top.bearcad.java.basic.array;
 
 /**
- * @program:
- * @description: 数组练习
- * @author: bear
- * @create: 2021-09-26 01:47
+ * @program: java-basic
+ * @description:
+ * @author: bearcad
+ * @create: 2021-09-26 16:36
  **/
 public class ArrayDemo {
     /**
@@ -12,17 +12,16 @@ public class ArrayDemo {
      * @param array 整形形参数组
      * @return int : 元素之和
      */
-    public int getSum(int[] array){
+    public int getSum(int[] array) {
         //
         int sum = 0;
         /*
 
          */
-        for (int i = 0;i < array.length; i++){
+        for (int i = 0; i < array.length; i++) {
             sum += 1;
         }
         //
         return sum;
     }
-
 }
