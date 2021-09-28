@@ -5,9 +5,55 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7288f1ce-3d80-4a81-9b02-c70b5872ba85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/datatype/BoxUnBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/datatype/FloatRounding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/JavaStudy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-basic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/operator/AssignmentOperatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/operator/BitsOperatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/operator/ConditionalOperatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/operator/InstanceofOperatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/operator/LogiclOperatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/operator/MathOperatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/operator/RelationOperatorDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/array/ArrayDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/datatype/BoxUnBox.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/datatype/FloatRounding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/datatype/IntegerEquals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/datatype/StringEquals.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/datatype/ValueOverfolw.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/datatype/ValueTypeDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/sort/BubbleSort.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/string/StringDome.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/variable/BaseVar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/variable/VariableDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/top/bearcad/java/basic/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/top/bearcad/java/basic/datatype/ValueOverfolwTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,13 +128,13 @@
       <recent name="top.bearcad.java.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BoxUnBox">
-    <configuration name="BoxUnBox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.datatype.BoxUnBox" />
+  <component name="RunManager" selected="Application.AssignmentOperatorDemo">
+    <configuration name="AssignmentOperatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.operator.AssignmentOperatorDemo" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.bearcad.java.basic.datatype.*" />
+          <option name="PATTERN" value="top.bearcad.java.basic.operator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FloatRounding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.datatype.FloatRounding" />
+    <configuration name="ConditionalOperatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.operator.ConditionalOperatorDemo" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.bearcad.java.basic.datatype.*" />
+          <option name="PATTERN" value="top.bearcad.java.basic.operator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.datatype.IntegerEquals" />
+    <configuration name="LogiclOperatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.operator.LogiclOperatorDemo" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.bearcad.java.basic.datatype.*" />
+          <option name="PATTERN" value="top.bearcad.java.basic.operator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.datatype.StringEquals" />
+    <configuration name="MathOperatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.operator.MathOperatorDemo" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.bearcad.java.basic.datatype.*" />
+          <option name="PATTERN" value="top.bearcad.java.basic.operator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValueOverfolw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.datatype.ValueOverfolw" />
+    <configuration name="RelationOperatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.operator.RelationOperatorDemo" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.bearcad.java.basic.datatype.*" />
+          <option name="PATTERN" value="top.bearcad.java.basic.operator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.BoxUnBox" />
-        <item itemvalue="Application.FloatRounding" />
-        <item itemvalue="Application.IntegerEquals" />
-        <item itemvalue="Application.ValueOverfolw" />
-        <item itemvalue="Application.StringEquals" />
+        <item itemvalue="Application.AssignmentOperatorDemo" />
+        <item itemvalue="Application.MathOperatorDemo" />
+        <item itemvalue="Application.LogiclOperatorDemo" />
+        <item itemvalue="Application.RelationOperatorDemo" />
+        <item itemvalue="Application.ConditionalOperatorDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -169,6 +215,7 @@
       <workItem from="1632643470253" duration="9288000" />
       <workItem from="1632656237455" duration="6355000" />
       <workItem from="1632754941147" duration="1946000" />
+      <workItem from="1632838983078" duration="2576000" />
     </task>
     <servers />
   </component>
