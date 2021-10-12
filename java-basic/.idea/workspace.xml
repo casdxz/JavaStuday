@@ -5,55 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7288f1ce-3d80-4a81-9b02-c70b5872ba85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/JavaStudy.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_assertj_assertj_core_3_13_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_8_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-basic.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/operator/AssignmentOperatorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/operator/BitsOperatorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/operator/ConditionalOperatorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/operator/InstanceofOperatorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/operator/LogiclOperatorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/operator/MathOperatorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/operator/RelationOperatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/arr/length.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/annotation/MyField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/annotation/MyFieldText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/array/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/array/SelectSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/control/BreakAndContinue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/control/GCD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/control/SwitchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/param/VariableLenParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/reflect/ClassDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/reflect/ReflectDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/reflect/TargetObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/reflect/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/array/ArrayDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/datatype/BoxUnBox.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/datatype/FloatRounding.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/datatype/IntegerEquals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/datatype/StringEquals.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/datatype/ValueOverfolw.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/datatype/ValueTypeDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/sort/BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/string/StringDome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/variable/BaseVar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/variable/VariableDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/top/bearcad/java/basic/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/top/bearcad/java/basic/datatype/ValueOverfolwTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/enumeration/ColorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/enumeration/ColorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/enumeration/Signal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/enumeration/Signal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/enumeration/SingletonEnumDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/enumeration/SingletonEnumDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/enumeration/StateMachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/enumeration/StateMachine.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit5 Test Class" />
+        <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -109,6 +82,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -120,6 +94,9 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="arr" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -128,13 +105,13 @@
       <recent name="top.bearcad.java.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AssignmentOperatorDemo">
-    <configuration name="AssignmentOperatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.operator.AssignmentOperatorDemo" />
+  <component name="RunManager" selected="Application.MyFieldText">
+    <configuration name="ClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.reflect.ClassDemo" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.bearcad.java.basic.operator.*" />
+          <option name="PATTERN" value="top.bearcad.java.basic.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConditionalOperatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.operator.ConditionalOperatorDemo" />
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.array.InsertSort" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.bearcad.java.basic.operator.*" />
+          <option name="PATTERN" value="top.bearcad.java.basic.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogiclOperatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.operator.LogiclOperatorDemo" />
+    <configuration name="MyFieldText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.annotation.MyFieldText" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.bearcad.java.basic.operator.*" />
+          <option name="PATTERN" value="top.bearcad.java.basic.annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathOperatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.operator.MathOperatorDemo" />
+    <configuration name="ReflectDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.reflect.ReflectDemo" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.bearcad.java.basic.operator.*" />
+          <option name="PATTERN" value="top.bearcad.java.basic.reflect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RelationOperatorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.operator.RelationOperatorDemo" />
+    <configuration name="SelectSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.array.SelectSort" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.bearcad.java.basic.operator.*" />
+          <option name="PATTERN" value="top.bearcad.java.basic.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AssignmentOperatorDemo" />
-        <item itemvalue="Application.MathOperatorDemo" />
-        <item itemvalue="Application.LogiclOperatorDemo" />
-        <item itemvalue="Application.RelationOperatorDemo" />
-        <item itemvalue="Application.ConditionalOperatorDemo" />
+        <item itemvalue="Application.MyFieldText" />
+        <item itemvalue="Application.ReflectDemo" />
+        <item itemvalue="Application.ClassDemo" />
+        <item itemvalue="Application.InsertSort" />
+        <item itemvalue="Application.SelectSort" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +192,18 @@
       <workItem from="1632643470253" duration="9288000" />
       <workItem from="1632656237455" duration="6355000" />
       <workItem from="1632754941147" duration="1946000" />
-      <workItem from="1632838983078" duration="2576000" />
+      <workItem from="1632838983078" duration="4328000" />
+      <workItem from="1632876924405" duration="595000" />
+      <workItem from="1632923920046" duration="5716000" />
+      <workItem from="1633093305000" duration="2851000" />
+      <workItem from="1633350952407" duration="669000" />
+      <workItem from="1633442360768" duration="1510000" />
+      <workItem from="1633447726936" duration="720000" />
+      <workItem from="1633525169459" duration="4226000" />
+      <workItem from="1633616647457" duration="2479000" />
+      <workItem from="1633921058537" duration="1637000" />
+      <workItem from="1633974487999" duration="22000" />
+      <workItem from="1634039915386" duration="1005000" />
     </task>
     <servers />
   </component>
