@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="bg" stylesheets="@css/style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="top.bearcad.weather.view.PrimaryController">
+   <top>
+      <Label alignment="CENTER" contentDisplay="CENTER" text="Today's Weather" textAlignment="CENTER" textFill="#ea0c0c" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="30.0" />
+         </font>
+         <BorderPane.margin>
+            <Insets top="20.0" />
+         </BorderPane.margin>
+      </Label>
+   </top>
+   <center>
+      <Pane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField fx:id="cityInput" alignment="CENTER" layoutX="178.0" layoutY="69.0" prefHeight="30.0" prefWidth="150.0" promptText="输入城市">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </TextField>
+            <Button layoutX="355.0" layoutY="69.0" mnemonicParsing="false" onAction="#getWeatherData" prefHeight="30.0" prefWidth="70.0" text="Search" />
+            <Text fx:id="weatherText" fill="#f211a3" layoutX="200.0" layoutY="180.0" strokeType="OUTSIDE" strokeWidth="0.0" text="">
+               <font>
+                  <Font size="20.0" />
+               </font></Text>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </Pane>
+   </center>
+</BorderPane>

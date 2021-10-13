@@ -1,0 +1,8 @@
+.root {
+    -fx-background-image: url(../img/one.gif);
+    -fx-background-size: cover;
+}
+.bg {
+    -fx-background-image: url(../img/bg.png);
+    -fx-background-size: cover;
+}
