@@ -5,32 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7288f1ce-3d80-4a81-9b02-c70b5872ba85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/oop/MultiReturnText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/oop/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/oop/ShallowOrDeepCopy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/oop/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-basic.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/AssignmentOperatorDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/BitsOperatorDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/ConditionalOperatorDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/InstanceofOperatorDemo$Animal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/InstanceofOperatorDemo$Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/InstanceofOperatorDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/LogiclOperatorDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/MathOperatorDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/RelationOperatorDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/param/VariableLenParam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflect/ClassDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflect/ReflectDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflect/TargetObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflect/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/sort/BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/string/StringDome.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/variable/BaseVar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/variable/VariableDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/top/bearcad/java/basic/AppTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/top/bearcad/java/basic/datatype/ValueOverfolwTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/oop/MultiReturnText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/method/MultiReturnText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/oop/MultiReturnText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/oop/ReturnObject.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +93,7 @@
       <recent name="top.bearcad.java.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MultiReturnText">
+  <component name="RunManager" selected="Application.ShallowOrDeepCopy">
     <configuration name="ClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.reflect.ClassDemo" />
       <module name="java-basic" />
@@ -125,25 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.array.InsertSort" />
-      <module name="java-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.bearcad.java.basic.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MultiReturnText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.oop.MultiReturnText" />
+      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.method.MultiReturnText" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.bearcad.java.basic.oop.*" />
+          <option name="PATTERN" value="top.bearcad.java.basic.method.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,13 +146,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShallowOrDeepCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.oop.ShallowOrDeepCopy" />
+      <module name="java-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.bearcad.java.basic.oop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShallowOrDeepCopy" />
         <item itemvalue="Application.MultiReturnText" />
         <item itemvalue="Application.MyFieldText" />
         <item itemvalue="Application.ReflectDemo" />
         <item itemvalue="Application.ClassDemo" />
-        <item itemvalue="Application.InsertSort" />
       </list>
     </recent_temporary>
   </component>
@@ -212,6 +194,7 @@
       <workItem from="1634039915386" duration="2961000" />
       <workItem from="1634175783403" duration="1825000" />
       <workItem from="1634210858801" duration="3407000" />
+      <workItem from="1634303180515" duration="4093000" />
     </task>
     <servers />
   </component>
@@ -229,5 +212,16 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/oop/ShallowOrDeepCopy.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

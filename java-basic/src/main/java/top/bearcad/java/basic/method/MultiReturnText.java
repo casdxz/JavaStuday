@@ -1,4 +1,4 @@
-package top.bearcad.java.basic.oop;
+package top.bearcad.java.basic.method;
 
 import io.vavr.Tuple;
 import io.vavr.Tuple3;
