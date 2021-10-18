@@ -43,6 +43,13 @@ public class Student implements Serializable {
     public void setPassword(String password) {
         this.passwd = password;
     }
+
+    /**
+     *
+     * @param objectInputStream 对象输入流
+     * @throws IOException 异常
+     * @throws ClassNotFoundException 异常
+     */
     private void readObject(ObjectInputStream objectInputStream) throws IOException,ClassNotFoundException{
         objectInputStream.defaultReadObject();
         if (0 >score || 100 < score){

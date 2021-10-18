@@ -19,8 +19,6 @@ public class StudentSerialize {
         student.setName("Java学习者");
         student.setAge(20);
         student.setScore(100);
-
-
         ObjectOutputStream objectOutputStream =
                 new ObjectOutputStream(new FileOutputStream("student.txt"));
         objectOutputStream.writeObject(student);
