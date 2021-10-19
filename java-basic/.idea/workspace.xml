@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7288f1ce-3d80-4a81-9b02-c70b5872ba85" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/other/URLRegExSample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/serialize/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/serialize/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/serialize/StudentSerialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/serialize/StudentSerialize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/serialize/StudentSerialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/serialize/StudentSerialize.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,26 +87,13 @@
       <recent name="top.bearcad.java.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Text">
+  <component name="RunManager" selected="Application.URLRegExSample">
     <configuration name="MultiReturnText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.method.MultiReturnText" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="top.bearcad.java.basic.method.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyFieldText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.annotation.MyFieldText" />
-      <module name="java-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="top.bearcad.java.basic.annotation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -155,13 +140,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="URLRegExSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.other.URLRegExSample" />
+      <module name="java-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="top.bearcad.java.basic.other.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.URLRegExSample" />
         <item itemvalue="Application.Text" />
         <item itemvalue="Application.StudentSerialize" />
         <item itemvalue="Application.ShallowOrDeepCopy" />
         <item itemvalue="Application.MultiReturnText" />
-        <item itemvalue="Application.MyFieldText" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +190,8 @@
       <workItem from="1634210858801" duration="3407000" />
       <workItem from="1634303180515" duration="4093000" />
       <workItem from="1634562030816" duration="5981000" />
-      <workItem from="1634568226462" duration="408000" />
+      <workItem from="1634568226462" duration="522000" />
+      <workItem from="1634649210254" duration="1852000" />
     </task>
     <servers />
   </component>
