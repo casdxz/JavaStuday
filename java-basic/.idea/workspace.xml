@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7288f1ce-3d80-4a81-9b02-c70b5872ba85" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/other/URLRegExSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/other/URLRegExSample.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -191,7 +192,7 @@
       <workItem from="1634303180515" duration="4093000" />
       <workItem from="1634562030816" duration="5981000" />
       <workItem from="1634568226462" duration="522000" />
-      <workItem from="1634649210254" duration="1852000" />
+      <workItem from="1634649210254" duration="2176000" />
     </task>
     <servers />
   </component>

@@ -18,7 +18,7 @@ import java.util.regex.Pattern;
  **/
 @Slf4j
 public class URLRegExSample {
-    private static final String SIE_URL = "http://blinkfox.com/";
+    private static final String SIE_URL =  "http://blinkfox.com/";
     private static final String IMG_PATTERN = "<img.*?>" ;
     private static final String HTTPS_PATTERN = "\"https?(.*?)(\"|>|\\s+)";
 
@@ -55,6 +55,7 @@ public class URLRegExSample {
                         //取子串，去除引导
                         log.info(imgUrl.substring(1 , imgUrl.length() - 1));
                         count++;
+
                     }
                 }
             }
