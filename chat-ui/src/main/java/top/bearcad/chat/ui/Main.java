@@ -1,29 +1,49 @@
 package top.bearcad.chat.ui;
 
-import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
-import javafx.stage.Stage;
-import javafx.stage.StageStyle;
-
 /**
  * @program: chat-ui
  * @description:
  * @author: bearcad
- * @create: 2021-10-21 23:04
+ * @create: 2021-10-23 02:45
  **/
+
+import javafx.application.Application;
+import javafx.stage.Stage;
+import top.bearcad.chat.ui.view.login.ILoginMethod;
+import top.bearcad.chat.ui.view.login.LoginController;
+
+import java.io.IOException;
+
+/**
+ * 启动主类
+ * @author Bear
+ */
 public class Main extends Application {
+
     @Override
-    public void start(Stage stage) throws Exception {
-        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("view/login/login.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(),540,420);
-        stage.setTitle("Login");
-        stage.setScene(scene);
-        stage.initStyle(StageStyle.TRANSPARENT);
-        stage.show();
+
+    public void start(Stage stage) throws IOException {
+        ILoginMethod login = new LoginController((userId, userPassword) -> {
+            System.out.println("登陆 userId：" + userId + "userPassword：" + userPassword);
+        });
+
+        login.doShow();
     }
 
     public static void main(String[] args) {
-        launch();
+        launch(args);
     }
+
+
+//    @Override
+
+//    public void start(Stage stage) throws IOException {
+//        IChatMethod chat = new ChatController();
+//        chat.doShow();
+//    }
+//
+//    public static void main(String[] args) {
+//        launch(args);
+//    }
+
 }
