@@ -25,7 +25,7 @@ import java.util.Objects;
  */
 public abstract class ChatInit extends UIObject {
 
-    private static final String RESOURCE_NAME = "view/chat/img/chat.fxml";
+    private static final String RESOURCE_NAME = "view/chat/chat.fxml";
 
     ChatInit() {
         try {

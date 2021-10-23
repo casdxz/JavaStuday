@@ -48,7 +48,7 @@
     <Button id="loginButton" prefHeight="45" prefWidth="250" styleClass="login_button" text="登 陆"
             AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="90.0" />
 
-    <Label id="slogan" prefHeight="15" prefWidth="200.0" text="v1.0 InfinityX7 | https://bearcad.top"
+    <Label id="slogan" prefHeight="15" prefWidth="200.0" text="v1.0 Bear | https://bearcad.top"
            AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0">
         <font>
             <Font size="12" />

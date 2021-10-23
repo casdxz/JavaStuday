@@ -1,6 +1,8 @@
 module top.bearcad.chatui {
     requires javafx.controls;
     requires javafx.fxml;
+    requires org.kordamp.ikonli.javafx;
+    requires org.kordamp.ikonli.materialdesign;
 
 
     opens top.bearcad.chat.ui to javafx.fxml;

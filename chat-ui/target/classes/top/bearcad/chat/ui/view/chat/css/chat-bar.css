@@ -15,10 +15,36 @@
     -fx-cursor: hand;
     -fx-border-width: 1px;
     -fx-border-radius: 2px;
-    -fx-border-color: white;
+    -fx-border-color: #f6f6f6;
 }
 
+.bar {
+    -fx-background-radius: 2px;
+    -fx-background-color: transparent;
+    -fx-cursor: hand;
+    -fx-border-width: 1px;
+    -fx-border-radius: 2px;
+    -fx-border-color: transparent;
+}
+
+.groupBarChat {
+    -fx-background-color: linear-gradient(to top, #9795f0, #fbc8d4);
+}
+
+.groupBarFriend {
+    -fx-background-color: linear-gradient(to top, #5ee7df, #b490ca);
+}
+
+.groupBarLocation {
+    -fx-background-color: linear-gradient(to right, #eea2a2, #b49fda);
+}
+.groupBarSet{
+    -fx-background-color: linear-gradient(to right, #9795f0, #fbc8d4);
+}
+
+
 /* 聊天 */
+/*
 #barChat {
     -fx-background-radius: 2px;
     -fx-background-position: center center;
@@ -39,9 +65,10 @@
 #barChat:pressed {
     -fx-background-image: url("../img/system/chat_2.png");
 }
-
+*/
 
 /* 好友 */
+/*
 #barFriend {
     -fx-background-radius: 2px;
     -fx-background-position: center center;
@@ -62,9 +89,10 @@
 #barFriend:pressed {
     -fx-background-image: url("../img/system/friend_2.png");
 }
-
+*/
 
 /* 收藏 */
+/*
 #barLocation {
     -fx-background-radius: 2px;
     -fx-background-position: center center;
@@ -85,9 +113,10 @@
 #barLocation:pressed {
     -fx-background-image: url("../img/system/location_2.png");
 }
-
+*/
 
 /* 设置 */
+/*
 #barSet {
     -fx-background-radius: 2px;
     -fx-background-position: center center;
@@ -108,3 +137,4 @@
 #barSet:pressed {
     -fx-background-image: url("../img/system/set_2.png");
 }
+ */
