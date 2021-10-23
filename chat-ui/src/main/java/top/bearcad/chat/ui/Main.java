@@ -36,6 +36,7 @@ public class Main extends Application {
                 alert.headerTextProperty().set("登陆成功！");
                 alert.showAndWait();
                 IChatMethod chat = new ChatController();
+
                 chat.doShow();
                 // 填充对话框测试数据
                 chat.addTalkBox(-1, 0, "1000001", "魏无羡",  "https://i.loli.net/2021/10/24/YbdIcwnlgKpM76V.jpg", "人生就像一杯茶，不会苦一辈子，但总会苦一阵子。", new Date(), false);
