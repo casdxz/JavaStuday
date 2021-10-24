@@ -1,7 +1,11 @@
 package top.bearcad.chat.ui.view.chat;
 
-import javafx.scene.control.Button;
+import javafx.scene.control.*;
+import javafx.scene.input.KeyCode;
 import javafx.scene.layout.Pane;
+import top.bearcad.chat.ui.view.chat.data.TalkBoxData;
+
+import java.util.Date;
 
 /**
  * @program: chat-ui
@@ -12,16 +16,51 @@ import javafx.scene.layout.Pane;
 public class ChatEventDefine {
 
     private final ChatInit chatInit;
+    private final IChatEvent chatEvent;
+    private final IChatMethod chatMethod;
 
-    public ChatEventDefine(ChatInit chatInit) {
+    public ChatEventDefine(ChatInit chatInit, IChatEvent chatEvent, IChatMethod chatMethod ) {
         this.chatInit = chatInit;
+        this.chatEvent = chatEvent;
+        this.chatMethod = chatMethod;
+
+        //移动
         chatInit.move();
+        // 最小化
+        min();
+        // 退出
+        quit();
         this.barChat();
         this.barFriend();
         this.barLocation();
         this.barSet();
+        // 发送消息事件[键盘]
+        doEventTextSend();
+        // 发送消息事件[按钮]
+        doEventTouchSend();
     }
 
+
+    /**
+     * 最小化
+     */
+    private void min() {
+        chatInit.$("group_bar_chat_min", Button.class).setOnAction(event -> {
+            chatInit.setIconified(true);
+        });
+    }
+
+
+    /**
+     * 退出
+     */
+    private void quit() {
+        chatInit.$("group_bar_chat_close", Button.class).setOnAction(event -> {
+            chatInit.close();
+            System.exit(0);
+            System.out.println("退出");
+        });
+    }
 
 
     private void switchBarChat(Button barChat, Pane groupBarChat, boolean toggle) {
@@ -182,4 +221,33 @@ public class ChatEventDefine {
 
     }
 
+    private void doEventTouchSend() {
+        Label touch_send = chatInit.$("touch_send", Label.class);
+        touch_send.setOnMousePressed(event -> {doEventSendMsg();
+                }
+        );
+    }
+
+    private void doEventTextSend() {
+        TextArea txt_input = chatInit.$("txt_input", TextArea.class);
+        txt_input.setOnKeyPressed(event -> {if (event.getCode().equals(KeyCode.ENTER)) {doEventSendMsg();
+        }
+        });
+    }
+
+    private void doEventSendMsg() {
+        TextArea txt_input = chatInit.$("txt_input", TextArea.class);
+        MultipleSelectionModel selectionModel = chatInit.$("talkList", ListView.class).getSelectionModel();
+        Pane selectedItem = (Pane) selectionModel.getSelectedItem();
+        // 对话信息
+        TalkBoxData talkBoxData = (TalkBoxData) selectedItem.getUserData();
+        String msg = txt_input.getText();
+        if (null == msg || "".equals(msg) ||"".equals(msg.trim())) {return;}
+        Date msgDate = new Date();
+        // 发送消息
+        System.out.println("发送消息：" + msg);
+        // 发送事件给自己添加消息
+        chatMethod.addTalkMsgRight(talkBoxData.getTalkId(), msg, msgDate, true, true, false);
+        txt_input.clear();
+    }
 }

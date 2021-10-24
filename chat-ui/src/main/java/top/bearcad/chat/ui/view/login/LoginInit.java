@@ -12,7 +12,6 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
-import javafx.scene.layout.Pane;
 import javafx.scene.paint.Color;
 import javafx.stage.StageStyle;
 import top.bearcad.chat.ui.Main;
@@ -56,11 +55,11 @@ public abstract class LoginInit extends UIObject {
     }
 
     private void obtain() {
-        loginMin = $("loginMin", Pane.class);
-        loginClose = $("loginClose", Pane.class);
-        loginButton = $("loginButton", Pane.class);
-        userId = $("userId", Pane.class);
-        userPassword = $("userPassword", Pane.class);
+        loginMin = $("loginMin", Button.class);
+        loginClose = $("loginClose", Button.class);
+        loginButton = $("loginButton", Button.class);
+        userId = $("userId", TextField.class);
+        userPassword = $("userPassword", PasswordField.class);
     }
 
 }

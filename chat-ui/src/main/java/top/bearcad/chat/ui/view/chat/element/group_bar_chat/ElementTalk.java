@@ -4,10 +4,13 @@ import javafx.collections.ObservableList;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.control.ListView;
 import javafx.scene.layout.Pane;
 import top.bearcad.chat.ui.util.DateUtil;
 import top.bearcad.chat.ui.util.Ids;
+import top.bearcad.chat.ui.view.chat.data.RemindCount;
 import top.bearcad.chat.ui.view.chat.data.TalkBoxData;
+import top.bearcad.chat.ui.view.chat.data.TalkData;
 
 import java.util.Date;
 
@@ -22,7 +25,14 @@ public class ElementTalk {
      * 对话面板(与好友对话、与群组对话)
      */
     private final Pane pane;
-
+    /**
+     * 头像
+     */
+    private Label head;
+    /**
+     * 昵称
+     */
+    private Label nikeName;
     /**
      * 信息简述
      */
@@ -35,6 +45,17 @@ public class ElementTalk {
      * 删除对话框按钮
      */
     private final Button delete;
+
+    /**
+     * 消息提醒
+     */
+    private final Label msgRemind;
+
+    /**
+     * 初始化填充消息对话框
+     */
+    private final ListView<Pane> infoBoxList;
+
 
     public ElementTalk(String talkId, Integer talkType, String talkName, String talkHead, String talkSketch, Date talkDate) {
         pane = new Pane();
@@ -82,6 +103,17 @@ public class ElementTalk {
         // 填充；信息简述 & 信息时间
         fillMsgSketch(talkSketch, talkDate);
 
+        // 消息提醒
+        msgRemind = new Label();
+        msgRemind.setPrefSize(15, 15);
+        msgRemind.setLayoutX(60);
+        msgRemind.setLayoutY(5);
+        msgRemind.setUserData(new RemindCount());
+        msgRemind.setText("");
+        msgRemind.setVisible(false);
+        msgRemind.getStyleClass().add("element_msgRemind");
+        children.add(msgRemind);
+
         // 删除对话框按钮
         delete = new Button();
         delete.setVisible(false);
@@ -91,10 +123,21 @@ public class ElementTalk {
         delete.getStyleClass().add("element_delete");
         children.add(delete);
 
+        // 消息框 [初始化，未装载]，承载对话信息内容，点击按钮时候填充
+        infoBoxList = new ListView<>();
+        infoBoxList.setId(Ids.ElementTalkId.createInfoBoxListId(talkId));
+        infoBoxList.setUserData(new TalkData(talkName, talkHead));
+        infoBoxList.setPrefSize(850, 560);
+        infoBoxList.getStyleClass().add("infoBoxStyle");
+
     }
 
     public Pane pane() {
         return pane;
+    }
+
+    public ListView<Pane> infoBoxList() {
+        return infoBoxList;
     }
 
     public Button delete() {
@@ -118,6 +161,9 @@ public class ElementTalk {
 
     public void clearMsgSketch() {
         msgSketch.setText("");
+    }
+    public Label msgRemind() {
+        return msgRemind;
     }
 
 }

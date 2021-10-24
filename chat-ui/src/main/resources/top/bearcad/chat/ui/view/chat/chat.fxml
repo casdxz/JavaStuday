@@ -4,12 +4,12 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import org.kordamp.ikonli.javafx.*?>
-<Pane id="chat" prefHeight="780.0" prefWidth="1240.0"
+<Pane id="chat" prefHeight="820.0" prefWidth="1243.0"
       stylesheets="@css/chat.css" xmlns="http://javafx.com/javafx/17"
       xmlns:fx="http://javafx.com/fxml/1">
 
     <!-- 控制栏 -->
-    <Pane id="bar" prefHeight="780.0" prefWidth="76">
+    <Pane id="bar" prefHeight="820.0" prefWidth="76">
         <!-- 头像 -->
         <Button id="barPortrait" layoutX="13" layoutY="23"
                 mnemonicParsing="false" prefHeight="50" prefWidth="50"/>
@@ -17,7 +17,7 @@
         <!-- 聊天 -->
 <!--        <Button id="barChat" layoutX="23" layoutY="100"-->
 <!--                mnemonicParsing="false" prefHeight="30" prefWidth="30"/>-->
-        <Button id="barChat" layoutX="15" layoutY="100" mnemonicParsing="false"
+        <Button id="barChat" layoutX="13" layoutY="100" mnemonicParsing="false"
                 prefHeight="30" prefWidth="30" styleClass="bar">
             <graphic>
                 <StackedFontIcon iconSize="32">
@@ -28,7 +28,7 @@
         <!-- 好友 -->
 <!--        <Button id="barFriend" layoutX="23" layoutY="160"-->
 <!--                mnemonicParsing="false" prefHeight="30" prefWidth="30"/>-->
-        <Button id="barFriend" layoutX="15" layoutY="160" mnemonicParsing="false"
+        <Button id="barFriend" layoutX="13" layoutY="160" mnemonicParsing="false"
                 prefHeight="30" prefWidth="30" styleClass="bar">
             <graphic>
                 <StackedFontIcon iconSize="32">
@@ -39,7 +39,7 @@
         <!-- 收藏 -->
 <!--        <Button id="barLocation" layoutX="23" layoutY="220"-->
 <!--                mnemonicParsing="false" prefHeight="30" prefWidth="30"/>-->
-        <Button id="barLocation" layoutX="15" layoutY="220" mnemonicParsing="false" prefHeight="30" prefWidth="30"
+        <Button id="barLocation" layoutX="13" layoutY="220" mnemonicParsing="false" prefHeight="30" prefWidth="30"
                 styleClass="bar">
             <graphic>
                 <StackedFontIcon iconSize="32">
@@ -51,7 +51,7 @@
         <!-- 设置 -->
 <!--        <Button id="barSet" layoutX="28.0" layoutY="663.0"-->
 <!--                mnemonicParsing="false" prefHeight="0.0" prefWidth="20"/>-->
-        <Button id="barSet" layoutX="15.0" layoutY="710.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="20"
+        <Button id="barSet" layoutX="13.0" layoutY="760.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="20"
                 styleClass="bar">
             <graphic>
                 <StackedFontIcon iconSize="32">
@@ -63,8 +63,15 @@
 
     <!-- groupBarChat -->
     <Pane id="groupBarChat" layoutX="76" layoutY="1"
-          prefHeight="900.0" prefWidth="1240.0"
+          prefHeight="818.0" prefWidth="1166.0"
           styleClass="groupBarChat">
+
+        <!-- 操作栏；最小化、关闭 -->
+        <Pane id="operation" layoutX="314" prefHeight="32" prefWidth="852">
+            <Button id="group_bar_chat_min" layoutX="767" prefHeight="32" prefWidth="42" styleClass="min"/>
+            <Button id="group_bar_chat_close" layoutX="810" prefHeight="32" prefWidth="42" styleClass="close"/>
+        </Pane>
+
         <!-- 搜索栏 -->
         <Pane styleClass="search" prefHeight="80" prefWidth="314">
             <TextField styleClass="searchInput" layoutX="20" layoutY="30"
@@ -76,29 +83,57 @@
             <Label styleClass="searchAdd" layoutX="270" layoutY="30"
                    prefHeight="30" prefWidth="30"/>
         </Pane>
+
         <!-- 会话栏 -->
         <Pane id="talk" layoutY="80" prefHeight="738" prefWidth="314">
             <ListView id="talkList" prefHeight="738" prefWidth="314"
                       styleClass="talkListStyle"/>
         </Pane>
+
+        <!-- 消息栏；对话名称 (昵称、群名称) -->
+        <Pane id="information" layoutX="314" layoutY="32" prefHeight="606" prefWidth="852">
+            <Pane id="info_pane" prefHeight="44" prefWidth="852">
+                <Label id="info_more" layoutX="800" prefHeight="43" prefWidth="43"/>
+                <Label id="info_name" layoutX="40" layoutY="-8" prefHeight="40" prefWidth="400" text="InfinityX7"/>
+            </Pane>
+            <Pane id="info_pane_box" layoutX="1" layoutY="45" prefHeight="560" prefWidth="850"
+                  style="-fx-background-color:transparent;-fx-border-width:0;"/>
+        </Pane>
+
+        <!-- 工具栏 -->
+        <Pane id="tool" layoutX="314" layoutY="638" prefHeight="46" prefWidth="852">
+            <Button id="tool_face" layoutX="20" layoutY="3" prefHeight="40" prefWidth="40"/>
+        </Pane>
+
+        <!-- 文本栏 -->
+        <Pane id="txt" layoutX="314" layoutY="684" prefHeight="90" prefWidth="852">
+            <TextArea id="txt_input" layoutX="20" prefHeight="90" prefWidth="813" styleClass="txt_input_style"
+                      wrapText="true"/>
+        </Pane>
+        <!-- 触达消息 [发送] -->
+        <Pane id="touch" layoutX="314" layoutY="775" prefHeight="40" prefWidth="852">
+            <Label id="touch_send" layoutX="730" layoutY="4" prefHeight="34" prefWidth="85" text="发送(S)"/>
+        </Pane>
+
+
     </Pane>
 
     <!-- groupBarFriend -->
     <Pane id="groupBarFriend" layoutX="76" layoutY="1"
-          prefHeight="780.0" prefWidth="1240.0"
+          prefHeight="818.0" prefWidth="1166.0"
           styleClass="groupBarFriend" visible="false">
     </Pane>
 
     <!-- groupBarLocation -->
     <Pane id="groupBarLocation" layoutX="76" layoutY="1"
-          prefHeight="780.0" prefWidth="1240.0"
+          prefHeight="818.0" prefWidth="1166.0"
           styleClass="groupBarLocation"
           visible="false">
     </Pane>
 
     <!-- groupBarSet -->
     <Pane id="groupBarSet" layoutX="76" layoutY="5"
-          prefHeight="780.0" prefWidth="1240.0"
+          prefHeight="818.0" prefWidth="1166.0"
           styleClass="groupBarSet"
           visible="false">
     </Pane>

@@ -5,57 +5,97 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="login" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
-            prefHeight="415" prefWidth="540"
-            stylesheets="@./css/login.css"
-            xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
-    <!-- 操作栏；最小化、关闭 -->
-    <AnchorPane id="operation" prefHeight="160" prefWidth="540"
-                AnchorPane.bottomAnchor="260.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
-        <Label id="login_logo" prefHeight="15" prefWidth="100.0" styleClass="logo" text="没有鱼的猫" textFill="#e8a1a1"
-               AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="25.0">
-            <font>
-                <Font size="14.0" />
-            </font>
-        </Label>
-        <Button id="loginMin" prefHeight="32" prefWidth="43" styleClass="min"
-                AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="15.0" />
-        <Button id="loginClose" prefHeight="32" prefWidth="43" styleClass="close"
-                AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0" />
-    </AnchorPane>
+<Pane id="login" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="415" prefWidth="540" stylesheets="@./css/login.css"
+      xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml/1">
+    <!--操作栏：最小化、关闭(Pane)-->
+    <Pane id="operation" prefWidth="540" prefHeight="158">
+        <Label id="loginLogo" styleClass="logo" layoutX="20" layoutY="30" prefWidth="200" prefHeight="15" text="没有鱼的猫"
+               style="-fx-text-fill:#666666;"/>
+        <Button id="loginMin" styleClass="min" layoutX="450" layoutY="20" prefWidth="43" prefHeight="32"/>
+        <Button id="loginClose" styleClass="close" layoutX="490" layoutY="20" prefWidth="43" prefHeight="32"/>
+    </Pane>
 
-    <!-- 登录表单区 -->
-    <AnchorPane id="avatar"  prefHeight="100" prefWidth="100"
-                AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="200.0" />
+    <!--头像-->
+    <Pane id="avatar" layoutX="80" layoutY="200" prefWidth="100" prefHeight="100"/>
 
-    <TextField id="userId" prefHeight="45" prefWidth="250" promptText="账号"
-               AnchorPane.rightAnchor="90.0" AnchorPane.topAnchor="200.0">
+    <!--用户id输入框-->
+    <TextField id="userId" layoutX="200" layoutY="200" prefWidth="250" prefHeight="45" promptText="账号">
         <padding>
-            <Insets left="10" />
+            <Insets left="10"/>
         </padding>
     </TextField>
 
-    <PasswordField id="userPassword" layoutX="200" layoutY="255" prefHeight="45" prefWidth="250" promptText="密码"
-                   AnchorPane.rightAnchor="90.0" AnchorPane.topAnchor="255.0">
+    <!--密码输入框-->
+    <PasswordField id="userPassword" layoutX="200" layoutY="255" prefWidth="250" prefHeight="45" promptText="密码">
         <padding>
-            <Insets left="10" />
+            <Insets left="10"/>
         </padding>
     </PasswordField>
 
-    <Button id="loginButton" prefHeight="45" prefWidth="250" styleClass="login_button" text="登 陆"
-            AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="90.0" />
+    <!--登陆按钮(Button)-->
+    <Button id="loginButton" styleClass="login-button" layoutX="200" layoutY="340" prefWidth="250" prefHeight="45" text="登 陆"/>
 
-    <Label id="slogan" prefHeight="15" prefWidth="200.0" text="v1.0 Bear | https://bearcad.top"
-           AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0">
+    <!--版本(Label)-->
+    <Label id="slogan" layoutX="10" layoutY="392" prefWidth="400" prefHeight="15"
+           text="v1.0 Bear | https://bearcad.top">
         <font>
-            <Font size="12" />
+            <Font size="12"/>
         </font>
-        <padding>
-            <Insets left="10.0" />
-        </padding>
     </Label>
+</Pane>
+<!--<AnchorPane id="login" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"-->
+<!--            prefHeight="415" prefWidth="540"-->
+<!--            stylesheets="@./css/login.css"-->
+<!--            xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">-->
+<!--    &lt;!&ndash; 操作栏；最小化、关闭 &ndash;&gt;-->
+<!--    <AnchorPane id="operation" prefHeight="158" prefWidth="540"-->
+<!--                AnchorPane.bottomAnchor="260.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">-->
+<!--        <Label id="login_logo" prefHeight="15" prefWidth="100.0" styleClass="logo" text="没有鱼的猫" textFill="#e8a1a1"-->
+<!--               AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="25.0">-->
+<!--            <font>-->
+<!--                <Font size="14.0" />-->
+<!--            </font>-->
+<!--        </Label>-->
+<!--        <Button id="loginMin" prefHeight="32" prefWidth="43" styleClass="min"-->
+<!--                AnchorPane.rightAnchor="50.0" AnchorPane.topAnchor="15.0" />-->
+<!--        <Button id="loginClose" prefHeight="32" prefWidth="43" styleClass="close"-->
+<!--                AnchorPane.rightAnchor="15.0" AnchorPane.topAnchor="15.0" />-->
+<!--    </AnchorPane>-->
 
-</AnchorPane>
+<!--    &lt;!&ndash; 登录表单区 &ndash;&gt;-->
+<!--    <AnchorPane id="avatar"  prefHeight="100" prefWidth="100"-->
+<!--                AnchorPane.leftAnchor="80.0" AnchorPane.topAnchor="200.0" />-->
+
+<!--    <TextField id="userId" prefHeight="45" prefWidth="250" promptText="账号"-->
+<!--               AnchorPane.rightAnchor="90.0" AnchorPane.topAnchor="200.0">-->
+<!--        <padding>-->
+<!--            <Insets left="10" />-->
+<!--        </padding>-->
+<!--    </TextField>-->
+
+<!--    <PasswordField id="userPassword" layoutX="200" layoutY="255" prefHeight="45" prefWidth="250" promptText="密码"-->
+<!--                   AnchorPane.rightAnchor="90.0" AnchorPane.topAnchor="255.0">-->
+<!--        <padding>-->
+<!--            <Insets left="10" />-->
+<!--        </padding>-->
+<!--    </PasswordField>-->
+
+<!--    <Button id="loginButton" prefHeight="45" prefWidth="250" styleClass="login_button" text="登 陆"-->
+<!--            AnchorPane.bottomAnchor="30.0" AnchorPane.rightAnchor="90.0" />-->
+
+<!--    <Label id="slogan" prefHeight="15" prefWidth="200.0" text="v1.0 Bear | https://bearcad.top"-->
+<!--           AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0">-->
+<!--        <font>-->
+<!--            <Font size="12" />-->
+<!--        </font>-->
+<!--        <padding>-->
+<!--            <Insets left="10.0" />-->
+<!--        </padding>-->
+<!--    </Label>-->
+
+<!--</AnchorPane>-->
