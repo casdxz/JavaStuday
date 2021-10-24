@@ -24,8 +24,6 @@ import java.util.Date;
  * @author Bear
  */
 public class Main extends Application {
-
-
     @Override
     public void start(Stage stage) throws IOException {
         ILoginMethod login = new LoginController((userId, userPassword) -> {
@@ -93,6 +91,7 @@ public class Main extends Application {
         login.doShow();
     }
 
+
     /*
     @Override
     public void start(Stage stage) throws IOException {
@@ -115,14 +114,12 @@ public class Main extends Application {
                 chat.addTalkBox(-1, 0, "1000005", "温宁",  "https://i.loli.net/2021/10/24/iLp5jVzbMrySPwT.jpg", "学习要加，骄傲要减，机会要乘，懒惰要除。", new Date(), false);
                 chat.addTalkBox(-1, 0, "1000006", "思追",  "https://i.loli.net/2021/10/24/cBdWybOa8IA3Lkv.jpg", "叹气是最浪费时间的事情，哭泣是最浪费力气的行径。", new Date(), false);
                 chat.addTalkBox(-1, 0, "1000007", "金凌",  "https://i.loli.net/2021/10/24/noRZGUrkON67H5B.jpg", "把一切平凡的事做好即不平凡，把一切简单的事做好即不简单。", new Date(), false);
-
-
             }
         });
         login.doShow();
     }
-
      */
+
     public static void main(String[] args) {
         launch(args);
     }
