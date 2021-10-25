@@ -37,6 +37,7 @@
             <artifactId>ikonli-materialdesign-pack</artifactId>
             <version>12.2.0</version>
         </dependency>
+
     </dependencies>
 
     <build>

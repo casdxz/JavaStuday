@@ -4,6 +4,7 @@ import javafx.scene.control.*;
 import javafx.scene.input.KeyCode;
 import javafx.scene.layout.Pane;
 import top.bearcad.chat.ui.view.chat.data.TalkBoxData;
+import top.bearcad.chat.ui.view.face.FaceController;
 
 import java.util.Date;
 
@@ -38,6 +39,7 @@ public class ChatEventDefine {
         doEventTextSend();
         // 发送消息事件[按钮]
         doEventTouchSend();
+        doEventToolFace();
     }
 
 
@@ -249,5 +251,16 @@ public class ChatEventDefine {
         // 发送事件给自己添加消息
         chatMethod.addTalkMsgRight(talkBoxData.getTalkId(), msg, msgDate, true, true, false);
         txt_input.clear();
+    }
+
+    /**
+     * 处理表情框事件
+     */
+    private void doEventToolFace() {
+        FaceController face = new FaceController(chatInit, chatInit, chatEvent, chatMethod);
+        Button tool_face = chatInit.$("tool_face", Button.class);
+        tool_face.setOnMousePressed(event -> {
+            face.doShowFace(chatMethod.getToolFaceX(), chatMethod.getToolFaceY());
+        });
     }
 }
