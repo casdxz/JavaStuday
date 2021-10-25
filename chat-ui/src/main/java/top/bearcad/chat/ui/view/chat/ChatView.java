@@ -138,7 +138,6 @@ public class ChatView {
         isRemind(msgRemindLabel, talkType, isRemind);
     }
 
-
     /*
     private void clearRemind(Label msgRemindLabel) {msgRemindLabel.setVisible(false);
         msgRemindLabel.setUserData(new RemindCount(0));

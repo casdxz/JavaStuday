@@ -47,7 +47,6 @@ public abstract class ChatInit extends UIObject {
      */
     public TextArea txtInput;
 
-
     ChatInit(IChatEvent chatEvent) {
         this.chatEvent = chatEvent;
         try {
@@ -71,7 +70,6 @@ public abstract class ChatInit extends UIObject {
         txtInput = $("txt_input", TextArea.class);
     }
 
-
     /*
     ChatInit() {
         try {
@@ -88,6 +86,5 @@ public abstract class ChatInit extends UIObject {
         initView();
         initEventDefine();
     }
-
      */
 }

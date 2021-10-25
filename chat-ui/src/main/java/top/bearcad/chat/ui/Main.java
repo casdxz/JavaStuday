@@ -96,7 +96,6 @@ public class Main extends Application {
         login.doShow();
     }
 
-
     /*
     @Override
     public void start(Stage stage) throws IOException {
