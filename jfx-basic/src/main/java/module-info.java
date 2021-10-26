@@ -9,6 +9,9 @@ module top.bearcad.jfxbasic {
     opens top.bearcad.jfx.basic to javafx.fxml;
     exports top.bearcad.jfx.basic;
 
+    opens top.bearcad.jfx.basic.animate to javafx.fxml;
+    exports top.bearcad.jfx.basic.animate;
+
     opens top.bearcad.jfx.basic.trayicon to javafx.fxml;
     exports top.bearcad.jfx.basic.trayicon;
 
