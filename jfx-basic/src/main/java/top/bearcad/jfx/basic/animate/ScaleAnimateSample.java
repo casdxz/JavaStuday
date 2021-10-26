@@ -11,7 +11,7 @@ import javafx.util.Duration;
 
 /**
  * @program: jfx-basic
- * @description:
+ * @description: JavaFX缩放动画
  * @author: bearcad
  * @create: 2021-10-26 21:20
  **/
@@ -19,13 +19,13 @@ public class ScaleAnimateSample extends Application {
     @Override
     public void start(Stage stage) {
         Group root = new Group();
-        Scene scene = new Scene(root, 600, 500);
+        Scene scene = new Scene(root, 300, 300);
         stage.setScene(scene);
 
         Rectangle rect = new Rectangle(100, 100, 100, 100);
         rect.setArcHeight(50);
         rect.setArcWidth(50);
-        rect.setFill(Color.VIOLET);
+        rect.setFill(Color.BROWN);
 
         ScaleTransition st = new ScaleTransition(Duration.millis(2000), rect);
         st.setByX(1.5f);

@@ -35,11 +35,11 @@ public class FillTransitionSample extends Application{
         Ellipse ellipse = new Ellipse();
         ellipse.setCenterX(250.0f);
         ellipse.setCenterY(150.0f);
-        ellipse.setRadiusX(100.0f);
-        ellipse.setRadiusY(50.0f);
+        ellipse.setRadiusX(200.0f);
+        ellipse.setRadiusY(100.0f);
         ellipse.setEffect(ds);
 
-        FillTransition ft = new FillTransition(Duration.millis(3000), ellipse, Color.PINK, Color.GREY);
+        FillTransition ft = new FillTransition(Duration.millis(3000), ellipse, Color.GREEN, Color.YELLOW);
         ft.setAutoReverse(true);
         ft.play();
 

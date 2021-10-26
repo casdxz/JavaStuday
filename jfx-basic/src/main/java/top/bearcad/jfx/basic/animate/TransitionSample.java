@@ -12,7 +12,7 @@ import javafx.util.Duration;
 
 /**
  * @program: jfx-basic
- * @description:
+ * @description: 打字动画
  * @author: bearcad
  * @create: 2021-10-26 21:17
  **/
@@ -21,20 +21,22 @@ public class TransitionSample extends Application {
     public void start(Stage stage) {
         Scene scene = new Scene(new Group());
         stage.setTitle("TransitionSample");
-        stage.setWidth(500);
-        stage.setHeight(400);
+        stage.setWidth(400);
+        stage.setHeight(200);
 
         VBox vbox = new VBox();
         vbox.setLayoutX(20);
         vbox.setLayoutY(20);
 
 
-        final String content = "Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum";
-        final Text text = new Text(10, 20, "");
+        final String content = "老师在前面为我们打头阵，我们必定紧随其后；\n代码中的乐趣只有深入其中才知道，\n" +
+                "跟着许老师学代码必定获得其乐无穷的乐趣；\n" +
+                "同时，老师给我们的影响和教育让我们终生难忘，\n非常感谢许老师！";
+        final Text text = new Text(20, 20, "");
 
         final Animation animation = new Transition() {
             {
-                setCycleDuration(Duration.millis(2000));
+                setCycleDuration(Duration.millis(4000));
             }
 
             @Override
