@@ -94,7 +94,7 @@
         <Pane id="information" layoutX="314" layoutY="32" prefHeight="606" prefWidth="852">
             <Pane id="info_pane" prefHeight="44" prefWidth="852">
                 <Label id="info_more" layoutX="800" prefHeight="43" prefWidth="43"/>
-                <Label id="info_name" layoutX="40" layoutY="-8" prefHeight="40" prefWidth="400" text="InfinityX7"/>
+                <Label id="info_name" layoutX="40" layoutY="-8" prefHeight="40" prefWidth="400" text="梦在前方"/>
             </Pane>
             <Pane id="info_pane_box" layoutX="1" layoutY="45" prefHeight="560" prefWidth="850"
                   style="-fx-background-color:transparent;-fx-border-width:0;"/>
@@ -114,14 +114,29 @@
         <Pane id="touch" layoutX="314" layoutY="775" prefHeight="40" prefWidth="852">
             <Label id="touch_send" layoutX="730" layoutY="4" prefHeight="34" prefWidth="85" text="发送(S)"/>
         </Pane>
-
-
     </Pane>
 
     <!-- groupBarFriend -->
-    <Pane id="groupBarFriend" layoutX="76" layoutY="1"
-          prefHeight="818.0" prefWidth="1166.0"
-          styleClass="groupBarFriend" visible="false">
+    <Pane visible="false" id="groupBarFriend" layoutX="76" layoutY="1" prefWidth="1166" prefHeight="818">
+        <!-- 操作栏；最小化、关闭 -->
+        <Pane id="operation" layoutX="314" prefWidth="852" prefHeight="32">
+            <Button id="group_bar_friend_min" styleClass="min" layoutX="767" prefWidth="42" prefHeight="32"/>
+            <Button id="group_bar_friend_close" styleClass="close" layoutX="810" prefWidth="42" prefHeight="32"/>
+        </Pane>
+        <!-- 搜索栏 -->
+        <Pane styleClass="search" prefHeight="80" prefWidth="314">
+            <TextField styleClass="searchInput" layoutX="20" layoutY="30" prefHeight="30" prefWidth="240"
+                       promptText="搜索">
+                <padding>
+                    <Insets left="30"/>
+                </padding>
+            </TextField>
+            <Label styleClass="searchAdd" layoutX="270" layoutY="30" prefHeight="30" prefWidth="30"/>
+        </Pane>
+        <!-- 好友栏 -->
+        <Pane id="friend" layoutY="80" prefHeight="738" prefWidth="314">
+            <ListView id="friendList" prefHeight="738" prefWidth="314" styleClass="friendListStyle"/>
+        </Pane>
     </Pane>
 
     <!-- groupBarLocation -->

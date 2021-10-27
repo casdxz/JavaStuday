@@ -9,6 +9,8 @@ package top.bearcad.chat.ui.view;
 
 import javafx.scene.Cursor;
 import javafx.scene.Parent;
+import javafx.scene.control.ListView;
+import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
 /**
@@ -36,9 +38,6 @@ public abstract class UIObject extends Stage {
      */
 
 
-
-
-
     /**
      * 窗体拖拽移动
      */
@@ -56,6 +55,13 @@ public abstract class UIObject extends Stage {
         root.setOnMouseReleased(event -> {
             root.setCursor(Cursor.DEFAULT);
         });
+    }
+
+    @SafeVarargs
+    public final void clearViewListSelectedAll(ListView<Pane>... listViews) {
+        for (ListView<Pane> listView : listViews) {
+            listView.getSelectionModel().clearSelection();
+        }
     }
 
     public double x(){
