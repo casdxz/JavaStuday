@@ -59,16 +59,19 @@ public class ElementFriendSubscription {
         gzhButton.setLayoutY(30);
         gzhButton.setStyle("-fx-background-color: transparent;" +
                 "-fx-background-radius: 0px;" +
-                "-fx-border-width: 50px;");
+                "-fx-border-width: 50px;" +
+                "-fx-background-size: cover;" +
+                "-fx-background-image: url('https://niit-soft.oss-cn-hangzhou.aliyuncs.com/avatar/Java.jpg');");
         subPaneChildren.add(gzhButton);
 
         Label gzhLabel = new Label();
         gzhLabel.setPrefSize(150, 20);
         gzhLabel.setLayoutX(95);
         gzhLabel.setLayoutY(100);
-        gzhLabel.setText("松山院");
-        gzhLabel.setStyle("-fx-background-color: transparent;-fx-border-width: 0; -fx-text-fill: #999999;" +
-                "-fx-font-size: 14px;");
+        gzhLabel.setText("Java时刻");
+        gzhLabel.setStyle("-fx-background-color: transparent;" +
+                "-fx-border-width: 0; -fx-text-fill: #999999;" +
+                "-fx-font-size: 16px;");
         gzhLabel.setTextAlignment(TextAlignment.CENTER);
         subPaneChildren.add(gzhLabel);
 

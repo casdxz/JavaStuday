@@ -37,6 +37,7 @@ public class Main extends Application {
                 IChatMethod chat = new ChatController(new IChatEvent() {
                 });
                 chat.doShow();
+                //用户信息
                 chat.setUserInfo("1000001", "bear","https://cdn.jsdelivr.net/gh/casdxz/image@master/head/head.328b8vbfaq00.png");
 
                 // 好友 - 对话框
@@ -84,6 +85,7 @@ public class Main extends Application {
                 // 群组
                 chat.addFriendGroup("2000001", "松山院", "https://niit-soft.oss-cn-hangzhou.aliyuncs.com/avatar/hand-7.jpg");
                 chat.addFriendGroup("2000002", "达摩院", "https://niit-soft.oss-cn-hangzhou.aliyuncs.com/avatar/hand-2.jpg");
+                chat.addFriendGroup("2000003", "魔道祖师", "https://cdn.jsdelivr.net/gh/casdxz/image@master/head/16.33hi9k7gzae0.png");
 
 
                 // 群组 - 对话框
@@ -101,6 +103,7 @@ public class Main extends Application {
 
 
                 // 好友
+                chat.addFriendUser(false, "1000009", "许老师",  "https://cdn.jsdelivr.net/gh/casdxz/image@master/head/xuqu.atmz2bggdos.jpg");
                 chat.addFriendUser(false, "1000002", "魏无羡", "https://cdn.jsdelivr.net/gh/casdxz/image@master/head/01.1klq8cskne3k.jpg");
                 chat.addFriendUser(false, "1000003", "蓝忘机", "https://cdn.jsdelivr.net/gh/casdxz/image@master/head/05.5w75d0yebcs0.jpg");
                 chat.addFriendUser(false, "1000004", "江澄", "https://cdn.jsdelivr.net/gh/casdxz/image@master/head/08.4yuyynzcur00.jpg");
