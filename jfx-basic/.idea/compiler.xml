@@ -9,8 +9,8 @@
         <module name="jfx-basic" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="jfx-basic" target="14" />
+    <bytecodeTargetLevel target="17">
+      <module name="jfx-basic" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>

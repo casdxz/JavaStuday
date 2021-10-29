@@ -3,6 +3,7 @@ module top.bearcad.jfxbasic {
     requires javafx.fxml;
     requires com.github.oshi;
     requires fastjson;
+    requires javafx.web;
 
     requires java.desktop;
 
@@ -14,6 +15,9 @@ module top.bearcad.jfxbasic {
 
     opens top.bearcad.jfx.basic.trayicon to javafx.fxml;
     exports top.bearcad.jfx.basic.trayicon;
+
+    opens top.bearcad.jfx.basic.control to javafx.fxml;
+    exports top.bearcad.jfx.basic.control;
 
     exports top.bearcad.jfx.basic.chart;
     opens top.bearcad.jfx.basic.chart to javafx.fxml;
