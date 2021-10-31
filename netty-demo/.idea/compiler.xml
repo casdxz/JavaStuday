@@ -7,9 +7,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="netty-demo" />
+        <module name="netty-assistant" />
+        <module name="netty-demo-1-04" />
+        <module name="netty-demo-1-03" />
+        <module name="netty-demo-1-02" />
+        <module name="netty-demo-1-01" />
+        <module name="netty-demo-1-06" />
+        <module name="netty-demo-1-05" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="17" />
+    <bytecodeTargetLevel target="17">
+      <module name="netty-assistant" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
