@@ -20,6 +20,8 @@
         <module>netty-demo-1-09</module>
         <module>netty-demo-1-10</module>
         <module>netty-demo-1-11</module>
+        <module>netty-demo-2-01</module>
+        <module>netty-demo-2-02</module>
     </modules>
 
     <properties>
@@ -41,6 +43,28 @@
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>1.2.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>2.5.5</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <version>2.5.5</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.google.protobuf</groupId>
+            <artifactId>protobuf-java</artifactId>
+            <version>3.19.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.googlecode.protobuf-java-format</groupId>
+            <artifactId>protobuf-java-format</artifactId>
+            <version>1.2</version>
         </dependency>
     </dependencies>
 
