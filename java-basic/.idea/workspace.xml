@@ -5,9 +5,124 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7288f1ce-3d80-4a81-9b02-c70b5872ba85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/other/URLRegExSample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/other/URLRegExSample.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/Content.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericVarargsMethodDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsClassDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsClassDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsClassDemo03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsErasureTypeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsExtendsDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsExtendsDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsInterfaceDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsInterfaceDemo02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsLowerBoundedWildcardDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsMethodDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsUnboundedWildcardDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsUpperBoundedWildcardDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsWildcardDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/MyMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/NoGenericsDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arr/ArrayCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arr/ArrayCopy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arr/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arr/Demo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/arr/TestArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arr/TestArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/lesson/FrameDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/lesson/FrameDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/lesson/MyDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/lesson/MyDate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/Text01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/Text01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/Text02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/Text02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/TextAbsclass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/TextAbsclass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/TextApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/TextApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/TextShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/TextShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/inherit/HtmlEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/inherit/HtmlEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/method/MultiReturnText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/method/MultiReturnText.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/Android.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/Android.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/Developer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/HardWare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/HardWare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/JavaEE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/JavaEE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/NetWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/NetWork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/TextEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/TextEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/method/MultiReturnText.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/method/ReturnObject.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/other/URLRegExSample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/other/URLRegExSample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/libraries/Maven__com_alibaba_fastjson_1_2_78.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/libraries/Maven__com_github_oshi_oshi_core_5_8_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/libraries/Maven__net_java_dev_jna_jna_5_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/libraries/Maven__net_java_dev_jna_jna_platform_5_9_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/libraries/Maven__org_openjfx_javafx_base_14_0_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/libraries/Maven__org_openjfx_javafx_base_win_14_0_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/libraries/Maven__org_openjfx_javafx_controls_14_0_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/libraries/Maven__org_openjfx_javafx_controls_win_14_0_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/libraries/Maven__org_openjfx_javafx_fxml_14_0_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_14_0_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/libraries/Maven__org_openjfx_javafx_graphics_14_0_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_14_0_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/libraries/Maven__org_openjfx_javafx_media_17_0_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/libraries/Maven__org_openjfx_javafx_media_win_17_0_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/libraries/Maven__org_openjfx_javafx_web_17_0_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/libraries/Maven__org_openjfx_javafx_web_win_17_0_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_32.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/libraries/Maven__org_slf4j_slf4j_nop_1_7_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/jfx-basic.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/src/main/java/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/src/main/java/top/bearcad/jfx/basic/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/src/main/java/top/bearcad/jfx/basic/animate/FillTransitionSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/src/main/java/top/bearcad/jfx/basic/animate/ScaleAnimateSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/src/main/java/top/bearcad/jfx/basic/animate/TransitionSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/src/main/java/top/bearcad/jfx/basic/chart/AreaChartDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/src/main/java/top/bearcad/jfx/basic/chart/LineChartDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/src/main/java/top/bearcad/jfx/basic/chart/PieChartDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/src/main/java/top/bearcad/jfx/basic/control/CanvasApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/src/main/java/top/bearcad/jfx/basic/control/HtmlEditor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/src/main/java/top/bearcad/jfx/basic/control/ProgressbarApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/src/main/java/top/bearcad/jfx/basic/effect/BlendEffect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/src/main/java/top/bearcad/jfx/basic/shape/LineDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/src/main/java/top/bearcad/jfx/basic/trayicon/JavaFxTrayIconSample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/src/main/java/top/bearcad/jfx/basic/util/SystemInfoUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/src/main/java/top/bearcad/jfx/basic/web/WebViewDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/target/classes/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/target/classes/top/bearcad/jfx/basic/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/target/classes/top/bearcad/jfx/basic/animate/FillTransitionSample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/target/classes/top/bearcad/jfx/basic/animate/ScaleAnimateSample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/target/classes/top/bearcad/jfx/basic/animate/TransitionSample$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/target/classes/top/bearcad/jfx/basic/animate/TransitionSample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/target/classes/top/bearcad/jfx/basic/chart/AreaChartDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/target/classes/top/bearcad/jfx/basic/chart/LineChartDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/target/classes/top/bearcad/jfx/basic/chart/PieChartDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/target/classes/top/bearcad/jfx/basic/control/CanvasApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/target/classes/top/bearcad/jfx/basic/control/HtmlEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/target/classes/top/bearcad/jfx/basic/control/ProgressbarApp$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/target/classes/top/bearcad/jfx/basic/control/ProgressbarApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/target/classes/top/bearcad/jfx/basic/effect/BlendEffect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/target/classes/top/bearcad/jfx/basic/shape/LineDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/target/classes/top/bearcad/jfx/basic/trayicon/JavaFxTrayIconSample$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/target/classes/top/bearcad/jfx/basic/trayicon/JavaFxTrayIconSample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/target/classes/top/bearcad/jfx/basic/util/SystemInfoUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jfx-basic/target/classes/top/bearcad/jfx/basic/web/WebViewDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../weather-app/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../weather-app/src/main/java/module-info.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +180,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../weather-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../netty-demo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -74,7 +189,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -88,13 +203,13 @@
       <recent name="top.bearcad.java.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.URLRegExSample">
-    <configuration name="MultiReturnText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.method.MultiReturnText" />
+  <component name="RunManager" selected="Application.GenericsWildcardDemo">
+    <configuration name="GenericsExtendsDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.generics.GenericsExtendsDemo02" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.bearcad.java.basic.method.*" />
+          <option name="PATTERN" value="top.bearcad.java.basic.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +217,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShallowOrDeepCopy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.oop.ShallowOrDeepCopy" />
+    <configuration name="GenericsLowerBoundedWildcardDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.generics.GenericsLowerBoundedWildcardDemo" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.bearcad.java.basic.oop.*" />
+          <option name="PATTERN" value="top.bearcad.java.basic.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +230,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentSerialize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.serialize.StudentSerialize" />
+    <configuration name="GenericsUnboundedWildcardDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.generics.GenericsUnboundedWildcardDemo" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.bearcad.java.basic.serialize.*" />
+          <option name="PATTERN" value="top.bearcad.java.basic.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +243,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Text" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.serialize.Text" />
+    <configuration name="GenericsUpperBoundedWildcardDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.generics.GenericsUpperBoundedWildcardDemo" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.bearcad.java.basic.serialize.*" />
+          <option name="PATTERN" value="top.bearcad.java.basic.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +256,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URLRegExSample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.other.URLRegExSample" />
+    <configuration name="GenericsWildcardDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.generics.GenericsWildcardDemo" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.bearcad.java.basic.other.*" />
+          <option name="PATTERN" value="top.bearcad.java.basic.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,11 +271,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.URLRegExSample" />
-        <item itemvalue="Application.Text" />
-        <item itemvalue="Application.StudentSerialize" />
-        <item itemvalue="Application.ShallowOrDeepCopy" />
-        <item itemvalue="Application.MultiReturnText" />
+        <item itemvalue="Application.GenericsWildcardDemo" />
+        <item itemvalue="Application.GenericsUnboundedWildcardDemo" />
+        <item itemvalue="Application.GenericsLowerBoundedWildcardDemo" />
+        <item itemvalue="Application.GenericsUpperBoundedWildcardDemo" />
+        <item itemvalue="Application.GenericsExtendsDemo02" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +307,19 @@
       <workItem from="1634303180515" duration="4093000" />
       <workItem from="1634562030816" duration="5981000" />
       <workItem from="1634568226462" duration="522000" />
-      <workItem from="1634649210254" duration="2176000" />
+      <workItem from="1634649210254" duration="2461000" />
+      <workItem from="1634741603392" duration="24000" />
+      <workItem from="1634784694634" duration="4004000" />
+      <workItem from="1634809821168" duration="16117000" />
+      <workItem from="1635380438828" duration="3472000" />
+      <workItem from="1635401045733" duration="565000" />
+      <workItem from="1635431998252" duration="68000" />
+      <workItem from="1635524635698" duration="115000" />
+      <workItem from="1635603636155" duration="54000" />
+      <workItem from="1635840203174" duration="1912000" />
+      <workItem from="1635854336712" duration="11127000" />
+      <workItem from="1635931844862" duration="2588000" />
+      <workItem from="1636127795785" duration="2516000" />
     </task>
     <servers />
   </component>
@@ -218,6 +345,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/oop/ShallowOrDeepCopy.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/Shape.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

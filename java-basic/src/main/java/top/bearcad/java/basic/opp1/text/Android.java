@@ -1,4 +1,4 @@
-package top.bearcad.java.basic.opp1.ex;
+package top.bearcad.java.basic.opp1.text;
 
 /**
  * @program: java-basic

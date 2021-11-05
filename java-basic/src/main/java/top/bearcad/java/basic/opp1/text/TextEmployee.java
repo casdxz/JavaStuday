@@ -1,6 +1,4 @@
-package top.bearcad.java.basic.opp1.absclass;
-
-import top.bearcad.java.basic.opp1.text.*;
+package top.bearcad.java.basic.opp1.text;
 
 /**
  * @program: java-basic
