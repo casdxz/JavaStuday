@@ -5,52 +5,82 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7288f1ce-3d80-4a81-9b02-c70b5872ba85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/Content.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericVarargsMethodDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsClassDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsClassDemo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsClassDemo03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsErasureTypeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsExtendsDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsExtendsDemo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsInterfaceDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsInterfaceDemo02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsLowerBoundedWildcardDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsMethodDemo01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsUnboundedWildcardDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsUpperBoundedWildcardDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsWildcardDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/Info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/MyMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/NoGenericsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/friend/AddFriendRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/friend/AddFriendResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/friend/SearchFriendRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/friend/SearchFriendResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/friend/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/ReconnectRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/dto/ChatRecordDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/dto/ChatTalkDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/dto/GroupsDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/dto/UserFriendDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/msg/MsgGroupRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/msg/MsgGroupResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/msg/MsgRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/msg/MsgResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/talk/DelTalkRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/talk/TalkNoticeRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/talk/TalkNoticeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/application/InetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/application/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/proxy/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/proxy/ProxyInvocationHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/proxy/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/proxy/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-client/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/bearcad/chat/client/application/UIService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-client/src/main/java/top/bearcad/chat/client/application/UIService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/bearcad/chat/client/domain/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-client/src/main/java/top/bearcad/chat/client/domain/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/bearcad/chat/client/event/ChatEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-client/src/main/java/top/bearcad/chat/client/event/ChatEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/bearcad/chat/client/event/LoginEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-client/src/main/java/top/bearcad/chat/client/event/LoginEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/codec/ObjDecoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/codec/ObjDecoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/codec/ObjEncoder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/codec/ObjEncoder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/Packet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/Packet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/util/SerializationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/util/SerializationUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-sever/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-sever/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-sever/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-sever/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-sever/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-sever/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-sever/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-sever/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-sever/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-sever/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-sever/.idea/libraries/Maven__org_openjfx_javafx_controls_17_ea_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-sever/.idea/libraries/Maven__org_openjfx_javafx_fxml_17_ea_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-sever/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-sever/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-sever/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-sever/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-sever/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/02.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/03.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/04.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/05.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/06.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/07.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/08.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/09.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/head.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arr/ArrayCopy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arr/ArrayCopy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arr/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arr/Demo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/arr/TestArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/arr/TestArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/lesson/FrameDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/lesson/FrameDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/lesson/MyDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/lesson/MyDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/Text01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/Text01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/Text02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/Text02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/TextAbsclass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/TextAbsclass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/TextApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/TextApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/TextShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/absclass/TextShape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/inherit/HtmlEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/inherit/HtmlEditor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/method/MultiReturnText.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/method/MultiReturnText.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/Android.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/Android.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/Developer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/Developer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/HardWare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/HardWare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/JavaEE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/JavaEE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/NetWork.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/NetWork.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/TextEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/opp1/text/TextEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/method/MultiReturnText.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/method/ReturnObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/other/URLRegExSample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/other/URLRegExSample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsWildcardDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsWildcardDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/encodings.xml" beforeDir="false" />
@@ -203,13 +233,13 @@
       <recent name="top.bearcad.java.basic" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenericsWildcardDemo">
-    <configuration name="GenericsExtendsDemo02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.generics.GenericsExtendsDemo02" />
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.proxy.Client" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.bearcad.java.basic.generics.*" />
+          <option name="PATTERN" value="top.bearcad.java.basic.proxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,11 +301,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.GenericsWildcardDemo" />
         <item itemvalue="Application.GenericsUnboundedWildcardDemo" />
         <item itemvalue="Application.GenericsLowerBoundedWildcardDemo" />
         <item itemvalue="Application.GenericsUpperBoundedWildcardDemo" />
-        <item itemvalue="Application.GenericsExtendsDemo02" />
       </list>
     </recent_temporary>
   </component>
@@ -320,6 +350,7 @@
       <workItem from="1635854336712" duration="11127000" />
       <workItem from="1635931844862" duration="2588000" />
       <workItem from="1636127795785" duration="2516000" />
+      <workItem from="1636381542446" duration="1910000" />
     </task>
     <servers />
   </component>
