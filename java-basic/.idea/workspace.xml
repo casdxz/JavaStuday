@@ -5,31 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7288f1ce-3d80-4a81-9b02-c70b5872ba85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/friend/AddFriendRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/friend/AddFriendResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/friend/SearchFriendRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/friend/SearchFriendResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/friend/dto/UserDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/LoginResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/ReconnectRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/dto/ChatRecordDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/dto/ChatTalkDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/dto/GroupsDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/dto/UserFriendDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/msg/MsgGroupRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/msg/MsgGroupResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/msg/MsgRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/msg/MsgResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/talk/DelTalkRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/talk/TalkNoticeRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/talk/TalkNoticeResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/application/InetService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/application/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/proxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/proxy/ProxyInvocationHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/proxy/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/proxy/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-client/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-client/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-client/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/bearcad/chat/client/application/UIService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-client/src/main/java/top/bearcad/chat/client/application/UIService.java" afterDir="false" />
@@ -43,8 +18,29 @@
       <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/package-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/Command.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/Packet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/Packet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/friend/AddFriendRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/friend/AddFriendRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/friend/AddFriendResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/friend/AddFriendResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/friend/SearchFriendRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/friend/SearchFriendRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/friend/SearchFriendResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/friend/SearchFriendResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/friend/dto/UserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/friend/dto/UserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/LoginRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/LoginRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/LoginResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/LoginResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/ReconnectRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/ReconnectRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/dto/ChatRecordDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/dto/ChatRecordDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/dto/ChatTalkDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/dto/ChatTalkDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/dto/GroupsDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/dto/GroupsDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/dto/UserFriendDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/login/dto/UserFriendDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/msg/MsgGroupRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/msg/MsgGroupRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/msg/MsgGroupResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/msg/MsgGroupResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/msg/MsgRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/msg/MsgRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/msg/MsgResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/msg/MsgResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/talk/DelTalkRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/talk/DelTalkRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/talk/TalkNoticeRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/talk/TalkNoticeRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/talk/TalkNoticeResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/protocol/talk/TalkNoticeResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/util/SerializationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-agreement/src/main/java/top/bearcad/chat/util/SerializationUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/application/InetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/application/InetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/application/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/application/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-sever/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-sever/.idea/compiler.xml" beforeDir="false" />
@@ -64,23 +60,8 @@
       <change beforePath="$PROJECT_DIR$/../chat-sever/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-sever/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-ui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/java/top/bearcad/chat/ui/img/head.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsWildcardDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsWildcardDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/proxy/ProxyInvocationHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/proxy/ProxyInvocationHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/proxy/ProxyInvocationHandler.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/encodings.xml" beforeDir="false" />
@@ -350,7 +331,7 @@
       <workItem from="1635854336712" duration="11127000" />
       <workItem from="1635931844862" duration="2588000" />
       <workItem from="1636127795785" duration="2516000" />
-      <workItem from="1636381542446" duration="1910000" />
+      <workItem from="1636381542446" duration="2225000" />
     </task>
     <servers />
   </component>

@@ -40,6 +40,7 @@ public class ProxyInvocationHandler implements InvocationHandler {
      *  @return 执行结果
      *  @throws Throwable 异常
      */
+
     @Override
     public Object invoke(Object proxy, Method method, Object[] args) throws
 Throwable{
@@ -47,7 +48,8 @@ Throwable{
         //动态代理的本质就是使用反射机制来实
         return method.invoke(target, args);
     }
+
     public void log(String msg) {
-        System.out.println("执行力" + msg + "方法");
+        System.out.println("执行了" + msg + "方法");
     }
 }
