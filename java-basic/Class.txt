@@ -1,0 +1,2 @@
+className=top.bearcad.java.basic.reflection.Person
+methodName=getPerson

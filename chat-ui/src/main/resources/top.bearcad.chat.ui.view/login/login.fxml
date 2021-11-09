@@ -1,0 +1,43 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<Pane id="login" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefWidth="540" prefHeight="415" stylesheets="@css/login.css" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml/1">
+    <!--操作栏：最小化、关闭(Pane)-->
+    <Pane id="operation" prefWidth="540" prefHeight="158">
+            <Label id="loginLogo" styleClass="logo" layoutX="20" layoutY="30" prefWidth="200" prefHeight="15" text="开到荼蘼"
+                   style="-fx-text-fill:#666666;"/>
+            <Button id="loginMin" styleClass="min" layoutX="450" layoutY="20" prefWidth="43" prefHeight="32"/>
+            <Button id="loginClose" styleClass="close" layoutX="490" layoutY="20" prefWidth="43" prefHeight="32"/>
+    </Pane>
+
+    <!--头像-->
+    <Pane id="avatar" layoutX="80" layoutY="200" prefWidth="100" prefHeight="100"/>
+
+    <!--用户id输入框-->
+    <TextField id="userId" layoutX="200" layoutY="200" prefWidth="250" prefHeight="45" promptText="账号">
+        <padding>
+            <Insets left="10"/>
+        </padding>
+    </TextField>
+
+    <!--密码输入框-->
+    <PasswordField id="userPassword" layoutX="200" layoutY="255" prefWidth="250" prefHeight="45" promptText="密码">
+        <padding>
+            <Insets left="10"/>
+        </padding>
+    </PasswordField>
+
+    <!--登陆按钮(Button)-->
+    <Button id="loginButton" styleClass="login-button" layoutX="200" layoutY="340" prefWidth="250" prefHeight="45" text="登 陆"/>
+
+    <!--版本(Label)-->
+    <Label id="slogan" layoutX="10" layoutY="392" prefWidth="400" prefHeight="15"
+           text="v1.0 InfinityX7 | https://mqxu.top">
+        <font>
+            <Font size="12"/>
+        </font>
+    </Label>
+</Pane>
