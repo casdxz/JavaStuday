@@ -1,10 +1,26 @@
 package top.bearcad.chat.codec;
 
+import io.netty.buffer.ByteBuf;
+import io.netty.channel.ChannelHandlerContext;
+import io.netty.handler.codec.MessageToByteEncoder;
+import top.bearcad.chat.protocol.Packet;
+import top.bearcad.chat.util.SerializationUtil;
+
 /**
  * @program: chat-server
- * @description:
+ * @description: 编码器
  * @author: bearcad
- * @create: 2021-11-07 00:14
+ * @create: 2021-11-08 23:50
  **/
-public class ObjEncoder {
+public class ObjEncoder extends MessageToByteEncoder<Packet> {
+
+    @Override
+    protected void encode(ChannelHandlerContext ctx, Packet in, ByteBuf out) {
+        byte[] data = SerializationUtil.serialize(in);
+        out.writeInt(data.length + 1);
+        //添加指令
+        out.writeByte(in.getCommand());
+        out.writeBytes(data);
+    }
+
 }

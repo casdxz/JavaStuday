@@ -1,4 +1,4 @@
-package top.bearcad.chat.infrastructure.commom;
+package top.bearcad.chat.infrastructure.common;
 
 /**
  * @program: chat-server

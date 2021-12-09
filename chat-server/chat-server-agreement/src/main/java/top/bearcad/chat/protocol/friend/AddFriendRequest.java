@@ -1,11 +1,53 @@
-package top.bearcad.chat.protocol.friend;/**
-* @program: chat-server
-*
-* @description: 
-*
-* @author: bearcad
-*
-* @create: 2021-11-07 23:18
-*
-**/public class AddFriendRequest {
+package top.bearcad.chat.protocol.friend;
+
+
+import top.bearcad.chat.protocol.Command;
+import top.bearcad.chat.protocol.Packet;
+
+/**
+ * @program: chat-server
+ * @description: 添加好友请求
+ * @author: bearcad
+ * @create: 2021-11-08 23:48
+ **/
+public class AddFriendRequest extends Packet {
+
+    /**
+     * 用户ID[自己的ID]
+     */
+    private String userId;
+    /**
+     * 好友ID
+     */
+    private String friendId;
+
+    public AddFriendRequest() {
+    }
+
+    public AddFriendRequest(String userId, String friendId) {
+        this.userId = userId;
+        this.friendId = friendId;
+    }
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
+
+    public String getFriendId() {
+        return friendId;
+    }
+
+    public void setFriendId(String friendId) {
+        this.friendId = friendId;
+    }
+
+    @Override
+    public Byte getCommand() {
+        return Command.AddFriendRequest;
+    }
+
 }

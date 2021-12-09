@@ -1,11 +1,18 @@
-package top.bearcad.chat.protocol.login.dto;/**
-* @program: chat-server
-*
-* @description: 
-*
-* @author: bearcad
-*
-* @create: 2021-11-07 23:22
-*
-**/public class GroupsDto {
+package top.bearcad.chat.protocol.login.dto;
+
+import lombok.Data;
+
+/**
+ * @program: chat-server
+ * @description: 群组Dto
+ * @author: bearcad
+ * @create: 2021-11-09 00:05
+ **/
+@Data
+public class GroupsDto {
+
+    private String groupId;
+    private String groupName;
+    private String groupHead;
+
 }

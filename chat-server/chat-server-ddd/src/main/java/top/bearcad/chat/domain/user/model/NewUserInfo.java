@@ -1,11 +1,29 @@
-package top.bearcad.chat.domain.user.model;/**
-* @program: chat-server
-*
-* @description: 
-*
-* @author: bearcad
-*
-* @create: 2021-11-09 00:32
-*
-**/public class NewUserInfo {
+package top.bearcad.chat.domain.user.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+/**
+ * @program: chat-server
+ * @description: 新用户
+ * @author: bearcad
+ * @create: 2021-11-09 00:32
+ **/
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+public class NewUserInfo {
+
+    private String userId;
+    private String userNickName;
+    private String userHead;
+    /**
+     * 状态；0添加、1[保留]、2已添加
+     */
+    private Integer status;
+
 }

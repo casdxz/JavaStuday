@@ -1,11 +1,37 @@
-package top.bearcad.chat.protocol.login.dto;/**
-* @program: chat-server
-*
-* @description: 
-*
-* @author: bearcad
-*
-* @create: 2021-11-07 23:22
-*
-**/public class ChatTalkDto {
+package top.bearcad.chat.protocol.login.dto;
+
+import lombok.Data;
+
+import java.util.Date;
+import java.util.List;
+
+/**
+ * @program: chat-server
+ * @description: 网络数据传输对象：聊天对话框
+ * @author: bearcad
+ * @create: 2021-11-09 00:05
+ **/
+@Data
+public class ChatTalkDto {
+    /**
+     * 对话框ID
+     */
+    private String talkId;
+    /**
+     * 对话框类型；0好友、1群组
+     */
+    private Integer talkType;
+    private String talkName;
+    private String talkHead;
+    /**
+     * 消息简述
+     */
+    private String talkSketch;
+    private Date talkDate;
+
+    /**
+     * 聊天记录
+     */
+    private List<ChatRecordDto> chatRecordList;
+
 }

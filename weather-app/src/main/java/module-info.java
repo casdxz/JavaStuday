@@ -3,6 +3,7 @@ module top.bearcad.weatherapp {
     requires javafx.fxml;
     requires json.simple;
 
+
     requires org.kordamp.ikonli.javafx;
     requires org.kordamp.ikonli.materialdesign;
 
@@ -11,4 +12,5 @@ module top.bearcad.weatherapp {
     opens top.bearcad.weather.view to javafx.fxml;
     exports top.bearcad.weather.view;
     exports top.bearcad.weather.util;
+
 }
