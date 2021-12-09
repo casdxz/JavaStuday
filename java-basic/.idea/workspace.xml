@@ -1,301 +1,346 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7288f1ce-3d80-4a81-9b02-c70b5872ba85" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../chat-client/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/inet/model/ChannelUserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/inet/model/ChannelUserReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/inet/model/InetServerInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/inet/repository/IInetRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/inet/service/InetServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/model/ChatRecordInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/model/GroupsInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/model/NewUserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/model/TalkBoxInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/model/UserFriendInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/model/UserGroupInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/model/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/repository/IUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/service/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/common/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/common/EasyResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/common/PageReq.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/common/SocketChannelUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/dao/IChatRecordDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/dao/IGroupsDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/dao/IGroupsMemberDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/dao/ITalkBoxDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/dao/IUserDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/dao/IUserFriendDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/dao/IUserGroupDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/po/ChatRecord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/po/Groups.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/po/TalkBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/po/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/po/UserFriend.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/po/UserGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/repositiry/InetRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/repositiry/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/interfaces/InetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/MyBizHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/MyChannelInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/NettyServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/handler/AddFriendHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/handler/DelTalkHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/handler/LoginHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/handler/MsgGroupHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/handler/MsgHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/handler/ReconnectHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/handler/SearchFriendHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/handler/TalkNoticeHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/mybatis/config/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/mybatis/mapper/ChatRecord_Mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/mybatis/mapper/Groups_Mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/mybatis/mapper/TalkBox_Mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/mybatis/mapper/UserFriend_Mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/mybatis/mapper/UserGroup_Mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/mybatis/mapper/User_Mapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/spring/spring-config-service.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/chat/server/js/server.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/chat/server/server.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/chat/user/css/user.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/chat/user/img/01_50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/chat/user/img/02_50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/chat/user/img/03_50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/chat/user/img/04_50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/chat/user/img/05_50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/chat/user/img/06_50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/chat/user/img/07_50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/chat/user/img/08_50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/chat/user/img/09_50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/chat/user/img/10_50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/chat/user/img/11_50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/chat/user/img/12_50.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/chat/user/js/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/chat/user/user.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/api/clear.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/api/init.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/api/menus.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/api/table.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/api/tableSelect.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/api/upload.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/css/layuimini.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/css/official-evaluation/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/css/public.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/images/bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/images/captcha.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/images/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/js/lay-config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/js/lay-module/echarts/echarts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/js/lay-module/echarts/echartsTheme.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/js/lay-module/iconPicker/iconPickerFa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/js/lay-module/layuimini/layuimini.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/js/lay-module/step-lay/step.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/js/lay-module/step-lay/step.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/js/lay-module/tableSelect/tableSelect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/js/lay-module/treetable-lay/treetable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/js/lay-module/treetable-lay/treetable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/js/lay-module/wangEditor/fonts/w-e-icon.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/js/lay-module/wangEditor/wangEditor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/js/lay-module/wangEditor/wangEditor.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/js/lay-module/wangEditor/wangEditor.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/js/lay-module/wangEditor/wangEditor.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/js/lay-module/wangEditor/wangEditor.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/js/lay-module/xmSelect/xmSelect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/js/official-evaluation/components/image-list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/js/official-evaluation/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/js/official-evaluation/filter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/js/official-evaluation/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/js/official-evaluation/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/axios/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/jq-module/jquery.particleground.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/jq-module/paigusu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/jq-module/zyupload/zyupload-1.0.0.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/jq-module/zyupload/zyupload-1.0.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/jquery-3.4.1/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/css/layui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/css/layui.mobile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/css/modules/code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/css/modules/laydate/default/laydate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/css/modules/layer/default/icon-ext.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/css/modules/layer/default/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/css/modules/layer/default/layer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/css/modules/layer/default/loading-0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/css/modules/layer/default/loading-1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/css/modules/layer/default/loading-2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/font/iconfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/font/iconfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/font/iconfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/font/iconfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/font/iconfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/0.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/1.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/10.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/11.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/12.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/13.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/14.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/15.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/16.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/17.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/18.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/19.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/2.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/20.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/21.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/22.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/23.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/24.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/25.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/26.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/27.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/28.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/29.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/3.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/30.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/31.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/32.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/33.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/34.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/35.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/36.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/37.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/38.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/39.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/4.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/40.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/41.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/42.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/43.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/44.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/45.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/46.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/47.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/48.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/49.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/5.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/51.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/52.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/53.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/54.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/55.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/56.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/57.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/58.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/59.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/6.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/60.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/61.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/62.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/63.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/64.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/65.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/66.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/67.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/68.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/69.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/7.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/70.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/71.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/8.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/images/face/9.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/lay/modules/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/lay/modules/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/lay/modules/colorpicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/lay/modules/element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/lay/modules/flow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/lay/modules/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/lay/modules/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/lay/modules/laydate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/lay/modules/layedit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/lay/modules/layer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/lay/modules/laypage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/lay/modules/laytpl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/lay/modules/mobile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/lay/modules/rate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/lay/modules/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/lay/modules/table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/lay/modules/transfer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/lay/modules/tree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/lay/modules/upload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/lay/modules/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/layui.all.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/layui-v2.5.4/layui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/lib/vue/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/page/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/page/button.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/page/color-select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/page/editor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/page/form-step.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/page/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/page/icon-picker.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/page/icon.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/page/layer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/page/login-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/page/login-2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/page/menu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/page/official-evaluation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/page/setting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/page/table-select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/page/upload.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/page/user-password.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/page/user-setting.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/page/welcome-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res/page/welcome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/reflection/FieldSu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/reflection/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/reflection/ReflectDemo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/reflection/ReflectDemo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/reflection/ReflectDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/reflection/ReflectDemo4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/reflection/ReflectDemo5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/reflection/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/reflection/TableSu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/reflection/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/chat/server/js/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/chat/server/server.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/css/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/img/01_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/img/02_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/img/03_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/img/04_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/img/05_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/img/06_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/img/07_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/img/08_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/img/09_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/img/10_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/img/11_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/img/12_50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/js/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/chat/user/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/api/clear.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/api/init.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/api/menus.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/api/table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/api/tableSelect.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/api/upload.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/css/layuimini.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/css/official-evaluation/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/images/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/images/captcha.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/echarts/echarts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/echarts/echartsTheme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/iconPicker/iconPickerFa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/layuimini/layuimini.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/step-lay/step.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/step-lay/step.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/tableSelect/tableSelect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/treetable-lay/treetable.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/treetable-lay/treetable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/wangEditor/fonts/w-e-icon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/wangEditor/wangEditor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/wangEditor/wangEditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/wangEditor/wangEditor.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/wangEditor/wangEditor.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/wangEditor/wangEditor.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/js/lay-module/xmSelect/xmSelect.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/js/official-evaluation/components/image-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/js/official-evaluation/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/js/official-evaluation/filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/js/official-evaluation/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/js/official-evaluation/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/axios/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/HELP-US-OUT.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/animated.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/screen-reader.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/font-awesome-4.7.0/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/jq-module/jquery.particleground.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/jq-module/paigusu.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/jq-module/zyupload/zyupload-1.0.0.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/jq-module/zyupload/zyupload-1.0.0.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/jquery-3.4.1/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/font/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/transfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/layui-v2.5.4/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/lib/vue/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/page/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/page/button.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/page/color-select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/page/editor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/page/form-step.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/page/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/page/icon-picker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/page/icon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/page/layer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/page/login-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/page/login-2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/page/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/page/official-evaluation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/page/setting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/page/table-select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/page/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/page/user-password.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/page/user-setting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/page/welcome-1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/webapp/res/page/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eclipse/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eclipse/src/main/java/top/bearcad/java/eclipse/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/in.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/top/bearcad/java/jdbc/BatchSample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/top/bearcad/java/jdbc/BatchSample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/top/bearcad/java/jdbc/DatabaseMetaDataSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/top/bearcad/java/jdbc/DatabaseMetaDataSample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/top/bearcad/java/jdbc/DatabaseMetaDataSample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/top/bearcad/java/jdbc/JdbcRowSetSample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/top/bearcad/java/jdbc/JdbcRowSetSample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/top/bearcad/java/jdbc/MysqlConSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/top/bearcad/java/jdbc/PreparedStatementSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/top/bearcad/java/jdbc/PreparedStatementSample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/top/bearcad/java/jdbc/ResultSetMetaDataSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/top/bearcad/java/jdbc/ResultSetSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/top/bearcad/java/jdbc/StatementSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/top/bearcad/java/jdbc/TransactionUsePrepareStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/top/bearcad/java/jdbc/TransactionUseStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/top/bearcad/java/jdbc/dao/StudentDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/top/bearcad/java/jdbc/dao/impl/StudentDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/top/bearcad/java/jdbc/demo/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/top/bearcad/java/jdbc/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/top/bearcad/java/jdbc/enums/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/top/bearcad/java/jdbc/enums/ResponseError.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/top/bearcad/java/jdbc/util/JdbcUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbc/src/test/java/top/bearcad/java/jdbc/dao/StudentDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/read.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/annotation/Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/annotation/Desc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/annotation/Hero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/annotation/Man.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/annotation/MyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/annotation/Perform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/annotation/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/annotation/Persons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/annotation/SafeVarargsAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/annotation/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/annotation/TestAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/annotation/TestMyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/annotation/safeVarargs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/io/Comparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/io/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/io/IoDemo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/io01/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/io01/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/io02/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/io02/Corolla.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/io02/FourS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/io02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/io02/RedSprayPaint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/io02/WhiteSprayPaint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/io03/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/io03/Language.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/io03/NewStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/io03/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/io03/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/io04/Copy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/ioex/FileConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/ioex/FileCreateDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/ioex/FileGetMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/ioex/FileJudgeMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/ioex/FileOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/ioex/FilePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/ioex/ListFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/ioex/SeparatorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/mapex/MapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/mapex/ProDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/mapex/PropDemo1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/mapex/Sample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/mapex/Sample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/mapex/Sample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/mapex/StringDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/threaddemo/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/threaddemo/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/threaddemo/ClientDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/threaddemo/ConsumerAndCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/threaddemo/DeadLockDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/threaddemo/Down.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/threaddemo/InterruptDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/threaddemo/JoinDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/threaddemo/MessageQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/threaddemo/NoSafeThreadSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/threaddemo/SafeThreadSample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/threaddemo/ScheduledExecutorServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/threaddemo/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/threaddemo/ServerDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/threaddemo/SleepDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/threaddemo/SocketThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/threaddemo/TreadPoolDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/threaddemo/WaitNotifyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/threaddemo/YieldDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/type/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/version/Qrcode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/version/Tools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/version/VerificationCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top/bearcad/java/basic/io/EmployeeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top/bearcad/java/basic/ioex/FileOperatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top/bearcad/java/basic/mapex/ProDemo1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top/bearcad/java/basic/version/QrcodeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/top/bearcad/java/basic/version/VerificationCodeTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-client/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-client/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-client/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-client/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/bearcad/chat/client/Application.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-client/src/main/java/top/bearcad/chat/client/application/UIService.java" beforeDir="false" />
@@ -346,8 +391,60 @@
       <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/application/InetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/application/InetService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/application/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/application/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res_layui.html" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/webapp/res_layui.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/inet/model/ChannelUserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/inet/model/ChannelUserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/inet/model/ChannelUserReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/inet/model/ChannelUserReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/inet/model/InetServerInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/inet/model/InetServerInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/inet/repository/IInetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/inet/repository/IInetRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/inet/service/InetServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/inet/service/InetServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/model/ChatRecordInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/model/ChatRecordInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/model/GroupsInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/model/GroupsInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/model/NewUserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/model/NewUserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/model/TalkBoxInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/model/TalkBoxInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/model/UserFriendInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/model/UserFriendInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/model/UserGroupInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/model/UserGroupInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/model/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/model/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/repository/IUserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/repository/IUserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/domain/user/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/common/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/common/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/common/EasyResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/common/EasyResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/common/PageReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/common/PageReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/common/SocketChannelUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/common/SocketChannelUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/dao/IChatRecordDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/dao/IChatRecordDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/dao/IGroupsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/dao/IGroupsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/dao/IGroupsMemberDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/dao/IGroupsMemberDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/dao/ITalkBoxDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/dao/ITalkBoxDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/dao/IUserFriendDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/dao/IUserFriendDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/dao/IUserGroupDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/dao/IUserGroupDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/po/ChatRecord.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/po/ChatRecord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/po/Groups.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/po/Groups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/po/TalkBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/po/TalkBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/po/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/po/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/po/UserFriend.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/po/UserFriend.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/po/UserGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/po/UserGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/repositiry/InetRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/repositiry/InetRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/repositiry/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/infrastructure/repositiry/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/interfaces/InetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/interfaces/InetController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/MyBizHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/MyBizHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/MyChannelInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/MyChannelInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/NettyServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/NettyServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/handler/AddFriendHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/handler/AddFriendHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/handler/DelTalkHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/handler/DelTalkHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/handler/LoginHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/handler/LoginHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/handler/MsgGroupHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/handler/MsgGroupHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/handler/MsgHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/handler/MsgHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/handler/ReconnectHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/handler/ReconnectHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/handler/SearchFriendHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/handler/SearchFriendHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/handler/TalkNoticeHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/java/top/bearcad/chat/socket/handler/TalkNoticeHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/mybatis/config/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/mybatis/config/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/mybatis/mapper/ChatRecord_Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/mybatis/mapper/ChatRecord_Mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/mybatis/mapper/Groups_Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/mybatis/mapper/Groups_Mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/mybatis/mapper/TalkBox_Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/mybatis/mapper/TalkBox_Mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/mybatis/mapper/UserFriend_Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/mybatis/mapper/UserFriend_Mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/mybatis/mapper/UserGroup_Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/mybatis/mapper/UserGroup_Mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/mybatis/mapper/User_Mapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/mybatis/mapper/User_Mapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/spring-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/chat-server-ddd/src/main/resources/spring-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-server/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-sever/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-sever/.idea/compiler.xml" beforeDir="false" />
@@ -367,9 +464,208 @@
       <change beforePath="$PROJECT_DIR$/../chat-sever/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-sever/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-ui/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-ui/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/chat.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/css/chat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/css/chat_bar.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/css/group_bar_chat/chat_information.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/css/group_bar_chat/chat_operation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/css/group_bar_chat/chat_search.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/css/group_bar_chat/chat_talk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/css/group_bar_chat/chat_tool.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/css/group_bar_chat/chat_touch.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/css/group_bar_chat/chat_txt.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/css/group_bar_chat/group_bar_chat.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/css/group_bar_friend/chat_content.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/css/group_bar_friend/chat_friend.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/css/group_bar_friend/chat_friend_group.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/css/group_bar_friend/chat_friend_new.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/css/group_bar_friend/chat_friend_user.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/css/group_bar_friend/chat_operation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/css/group_bar_friend/chat_search.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/css/group_bar_friend/group_bar_friend.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/head/head-0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/head/head-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/head/head-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/head/head-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/head/head-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/head/head-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/head/head-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/head/head-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/head/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/head/me.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/system/add_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/system/add_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/system/close_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/system/close_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/system/face_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/system/face_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/system/friend_group_50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/system/friend_luck_50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/system/head-default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/system/min_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/system/min_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/system/more_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/system/more_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/system/search_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/chat/img/system/talk_delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/face/css/face.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/face/face.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/face/img/f_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/face/img/f_10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/face/img/f_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/face/img/f_12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/face/img/f_13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/face/img/f_14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/face/img/f_15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/face/img/f_16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/face/img/f_17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/face/img/f_18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/face/img/f_19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/face/img/f_2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/face/img/f_20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/face/img/f_3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/face/img/f_4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/face/img/f_5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/face/img/f_6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/face/img/f_7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/face/img/f_8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/face/img/f_9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/login/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/login/img/banner.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/login/img/banner1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/login/img/close_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/login/img/close_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/login/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/login/img/me.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/login/img/min_0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/login/img/min_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/login/img/purple.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-ui/src/main/resources/top.bearcad.chat.ui.view/login/login.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/reflect/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/reflect/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/datatype/ValueTypeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/datatype/ValueTypeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsClassDemo03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/generics/GenericsClassDemo03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/reflection/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/top/bearcad/java/basic/reflection/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arr/ArrayCopy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/arr/ArrayCopy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arr/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/arr/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arr/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/arr/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arr/TestArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/arr/TestArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/arr/length.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/arr/length.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/logback.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/annotation/MyField.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/annotation/MyField.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/annotation/MyFieldText.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/annotation/MyFieldText.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/array/ArrayDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/array/ArrayDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/array/InsertSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/array/InsertSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/array/SelectSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/array/SelectSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/control/BreakAndContinue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/control/BreakAndContinue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/control/GCD.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/control/GCD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/control/SwitchDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/control/SwitchDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/datatype/BoxUnBox.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/datatype/BoxUnBox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/datatype/FloatRounding.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/datatype/FloatRounding.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/datatype/IntegerEquals.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/datatype/IntegerEquals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/datatype/StringEquals.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/datatype/StringEquals.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/datatype/ValueOverfolw.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/datatype/ValueOverfolw.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/datatype/ValueTypeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/datatype/ValueTypeDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/enumeration/Color.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/enumeration/Color.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/enumeration/ColorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/enumeration/ColorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/enumeration/Signal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/enumeration/Signal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/enumeration/SingletonEnumDemo$SingletonEnum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/enumeration/SingletonEnumDemo$SingletonEnum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/enumeration/SingletonEnumDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/enumeration/SingletonEnumDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/enumeration/StateMachine$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/enumeration/StateMachine$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/enumeration/StateMachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/enumeration/StateMachine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/Content.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/Content.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericVarargsMethodDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericVarargsMethodDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsClassDemo01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsClassDemo01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsClassDemo02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsClassDemo02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsClassDemo03.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsClassDemo03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsErasureTypeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsErasureTypeDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsExtendsDemo01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsExtendsDemo01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsExtendsDemo02$A.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsExtendsDemo02$A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsExtendsDemo02$B.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsExtendsDemo02$B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsExtendsDemo02$C.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsExtendsDemo02$C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsExtendsDemo02$D1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsExtendsDemo02$D1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsExtendsDemo02$E.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsExtendsDemo02$E.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsExtendsDemo02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsExtendsDemo02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsInterfaceDemo01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsInterfaceDemo01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsInterfaceDemo02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsInterfaceDemo02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsLowerBoundedWildcardDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsLowerBoundedWildcardDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsMethodDemo01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsMethodDemo01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsUnboundedWildcardDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsUnboundedWildcardDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsUpperBoundedWildcardDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsUpperBoundedWildcardDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsWildcardDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/GenericsWildcardDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/Info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/Info.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/MyMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/MyMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/NoGenericsDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/generics/NoGenericsDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/lesson/FrameDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/lesson/FrameDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/lesson/MyDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/lesson/MyDate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/oop/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/oop/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/oop/ShallowOrDeepCopy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/oop/ShallowOrDeepCopy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/oop/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/oop/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/AssignmentOperatorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/AssignmentOperatorDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/BitsOperatorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/BitsOperatorDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/ConditionalOperatorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/ConditionalOperatorDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/InstanceofOperatorDemo$Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/InstanceofOperatorDemo$Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/InstanceofOperatorDemo$Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/InstanceofOperatorDemo$Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/InstanceofOperatorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/InstanceofOperatorDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/LogiclOperatorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/LogiclOperatorDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/MathOperatorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/MathOperatorDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/RelationOperatorDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/operator/RelationOperatorDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/absclass/Circle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/absclass/Circle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/absclass/Rectangle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/absclass/Rectangle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/absclass/Shape.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/absclass/Shape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/absclass/Text01.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/absclass/Text01.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/absclass/Text02.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/absclass/Text02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/absclass/TextAbsclass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/absclass/TextAbsclass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/absclass/TextApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/absclass/TextApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/absclass/TextShape.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/absclass/TextShape.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/inherit/HtmlEditor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/inherit/HtmlEditor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/method/MultiReturnText.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/method/MultiReturnText.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/method/ReturnObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/method/ReturnObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/text/Android.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/text/Android.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/text/Developer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/text/Developer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/text/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/text/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/text/HardWare.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/text/HardWare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/text/JavaEE.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/text/JavaEE.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/text/NetWork.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/text/NetWork.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/text/TextEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/opp1/text/TextEmployee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/other/URLRegExSample.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/other/URLRegExSample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/param/VariableLenParam.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/param/VariableLenParam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/proxy/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/proxy/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/proxy/ProxyInvocationHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/proxy/ProxyInvocationHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/proxy/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/proxy/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/proxy/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/proxy/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflect/ClassDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflect/ClassDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflect/ReflectDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflect/ReflectDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflect/TargetObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflect/TargetObject.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflect/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflect/User$UserBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflect/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflect/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflection/FieldSu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflection/FieldSu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflection/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflection/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflection/ReflectDemo1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflection/ReflectDemo1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflection/ReflectDemo2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflection/ReflectDemo2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflection/ReflectDemo3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflection/ReflectDemo3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflection/ReflectDemo4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflection/ReflectDemo4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflection/ReflectDemo5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflection/ReflectDemo5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflection/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflection/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflection/TableSu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflection/TableSu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflection/User$UserBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflection/User$UserBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflection/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/reflection/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/serialize/Singleton$SingletonHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/serialize/Singleton$SingletonHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/serialize/Singleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/serialize/Singleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/serialize/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/serialize/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/serialize/StudentSerialize.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/serialize/StudentSerialize.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/serialize/Text.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/serialize/Text.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/sort/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/sort/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/string/StringDome.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/string/StringDome.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/variable/BaseVar.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/variable/BaseVar.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/variable/VariableDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/top/bearcad/java/basic/variable/VariableDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/top/bearcad/java/basic/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/top/bearcad/java/basic/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/top/bearcad/java/basic/datatype/ValueOverfolwTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/top/bearcad/java/basic/datatype/ValueOverfolwTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../jfx-basic/.idea/encodings.xml" beforeDir="false" />
@@ -454,11 +750,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Enum" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -494,42 +790,54 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="17" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="top.bearcad.java.basic.threaddemo" />
+      <recent name="top.bearcad.java.basic.mapex" />
       <recent name="arr" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaStudy\java-basic" />
+      <recent name="E:\JavaStudy\java-basic\src\main\java\top\bearcad\java\basic\type" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="top.bearcad.java.basic.datatype" />
-      <recent name="top.bearcad.java.basic" />
+      <recent name="top.bearcad.java.jdbc.dao" />
+      <recent name="top.bearcad.java.basic.version" />
+      <recent name="top.bearcad.java.basic.io" />
+      <recent name="top.bearcad.java.basic.ioex" />
+      <recent name="top.bearcad.java.basic.mapex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReflectDemo5">
-    <configuration name="ReflectDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.reflection.ReflectDemo1" />
-      <module name="java-basic" />
+  <component name="RunManager" selected="Application.Demo">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.jdbc.demo.Demo" />
+      <module name="jdbc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.bearcad.java.basic.reflection.*" />
+          <option name="PATTERN" value="top.bearcad.java.jdbc.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -537,65 +845,76 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.reflection.ReflectDemo2" />
-      <module name="java-basic" />
+    <configuration name="StudentDaoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.bearcad.java.basic.reflection.*" />
+          <option name="PATTERN" value="top.bearcad.java.jdbc.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="top.bearcad.java.jdbc.dao" />
+      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.jdbc.dao.StudentDaoTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.reflection.ReflectDemo3" />
-      <module name="java-basic" />
+    <configuration name="StudentDaoTest.deleteStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.bearcad.java.basic.reflection.*" />
+          <option name="PATTERN" value="top.bearcad.java.jdbc.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="top.bearcad.java.jdbc.dao" />
+      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.jdbc.dao.StudentDaoTest" />
+      <option name="METHOD_NAME" value="deleteStudent" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.reflection.ReflectDemo4" />
-      <module name="java-basic" />
+    <configuration name="StudentDaoTest.insertStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.bearcad.java.basic.reflection.*" />
+          <option name="PATTERN" value="top.bearcad.java.jdbc.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="top.bearcad.java.jdbc.dao" />
+      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.jdbc.dao.StudentDaoTest" />
+      <option name="METHOD_NAME" value="insertStudent" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReflectDemo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.basic.reflection.ReflectDemo5" />
-      <module name="java-basic" />
+    <configuration name="StudentDaoTest.updateStudent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jdbc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="top.bearcad.java.basic.reflection.*" />
+          <option name="PATTERN" value="top.bearcad.java.jdbc.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="top.bearcad.java.jdbc.dao" />
+      <option name="MAIN_CLASS_NAME" value="top.bearcad.java.jdbc.dao.StudentDaoTest" />
+      <option name="METHOD_NAME" value="updateStudent" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReflectDemo5" />
-        <item itemvalue="Application.ReflectDemo4" />
-        <item itemvalue="Application.ReflectDemo3" />
-        <item itemvalue="Application.ReflectDemo2" />
-        <item itemvalue="Application.ReflectDemo1" />
+        <item itemvalue="Application.Demo" />
+        <item itemvalue="JUnit.StudentDaoTest.updateStudent" />
+        <item itemvalue="JUnit.StudentDaoTest.deleteStudent" />
+        <item itemvalue="JUnit.StudentDaoTest.insertStudent" />
+        <item itemvalue="JUnit.StudentDaoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -641,7 +960,25 @@
       <workItem from="1635931844862" duration="2588000" />
       <workItem from="1636127795785" duration="2516000" />
       <workItem from="1636381542446" duration="2350000" />
-      <workItem from="1636458985486" duration="8936000" />
+      <workItem from="1636458985486" duration="10208000" />
+      <workItem from="1636548708432" duration="5878000" />
+      <workItem from="1636589479292" duration="379000" />
+      <workItem from="1636594941496" duration="4744000" />
+      <workItem from="1636842960171" duration="12373000" />
+      <workItem from="1637132335846" duration="51000" />
+      <workItem from="1637132448678" duration="4447000" />
+      <workItem from="1637195166972" duration="16047000" />
+      <workItem from="1637495205194" duration="9865000" />
+      <workItem from="1637798883123" duration="1940000" />
+      <workItem from="1637801531496" duration="15505000" />
+      <workItem from="1637850673512" duration="5046000" />
+      <workItem from="1637977797202" duration="74000" />
+      <workItem from="1637977901414" duration="5000" />
+      <workItem from="1637985155005" duration="871000" />
+      <workItem from="1638253276245" duration="5712000" />
+      <workItem from="1638270488168" duration="16485000" />
+      <workItem from="1638454185066" duration="2768000" />
+      <workItem from="1638777434900" duration="8849000" />
     </task>
     <servers />
   </component>

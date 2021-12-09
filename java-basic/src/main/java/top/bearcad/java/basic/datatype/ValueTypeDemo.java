@@ -47,7 +47,7 @@ public class ValueTypeDemo {
         char ch2 = '\\';
         log.info("ch1 = {}", ch1 );
         log.info("ch2 = {}", ch2 );
-        log.info("\"Hello World!\"");
+        log.info("\"Copy World!\"");
     }
     public static void demo06(){
         //定义一个浮点型变量

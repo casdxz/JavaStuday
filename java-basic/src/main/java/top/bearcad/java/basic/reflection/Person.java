@@ -19,12 +19,12 @@ public class Person {
     }
 
     public static void getPerson(){
-        System.out.println("I am a person.");
+        System.out.println("I am a Person.");
     }
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "Persons{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 '}';

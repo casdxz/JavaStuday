@@ -8,7 +8,7 @@ package top.bearcad.java.basic.generics;
  **/
 public class GenericsClassDemo03 {
     public static void main(String[] args) {
-        Info<String> info = new Info("Hello");
+        Info<String> info = new Info("Copy");
         MyMap<Integer, Info<String>> map = new MyMap<>(1, info);
         System.out.println(map);
     }
